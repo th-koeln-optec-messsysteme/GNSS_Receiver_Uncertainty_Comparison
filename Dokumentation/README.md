@@ -222,14 +222,18 @@ Abbildung 10
 
 Bei der Langzeitmessung am Kölner GPS-Referenzpunkt sollten sich aufgrund der geringen Abweichungen, max. 2,5 - 4m laut Datenblättern im Vergleich zum Erdradius (6.371.000m),   keine signifikanten Abweichungen aufgrund der Erdkrümmung ergeben, daher wird die Erdkrümmung im Folgenden vernachlässigt.
 Das NMEA-Protokoll gibt die Koordinaten in Grad-Dezimalminuten aus, da aber die folgenden Rechnungen auf Dezimalgrad basieren ist eine vorherige Umrechnung in dieses Format nötig .
-Hier ein Beispiel aus einer Messung:
+Hier ein Beispiel aus einer Messung:\
 $GNGGA,142102.00,5056.46904,N,00658.11390,E,1,08,1.34,67.7,M,46.7,M,,*73
+
 Dieser Auszug wird wie folgt interpretiert:
-5056.46904 N	Ddmm.mmmmm	N 50° 56,46904
-00658.11390 E	Dddmm.mmmmm	E 06° 58,11390
-Die Umrechnung von Grad-Dezimalminuten in Dezimalgrad erfolgt folgendermaßen:
-50° 56,46904=(56,46904/60)+50°=50,94115067°
-06° 58,11390=(58,11390/60)+06°=6,968565°
+| | | |
+|-|-|-|
+|5056.46904 N|	Ddmm.mmmmm|	N 50° 56,46904|
+|00658.11390 E|	Dddmm.mmmmm|	E 06° 58,11390|
+
+Die Umrechnung von Grad-Dezimalminuten in Dezimalgrad erfolgt folgendermaßen:\
+50° 56,46904=(56,46904/60)+50°=50,94115067°\
+06° 58,11390=(58,11390/60)+06°=6,968565°\
 
 
 
