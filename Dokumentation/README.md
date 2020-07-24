@@ -38,14 +38,14 @@ GNSS ist ein Sammelbegriff für die verschiedenen globalen Satellitensysteme:
 		
 Das GNSS System besteht aus drei Segmenten:
 
-* **Satelliten im Weltraum**
-  Die Satelliten umkreisen in regelmäßigen Intervallen die Erde und senden Signale. Jeder Satellit ist mit einer Uhr, einem Mikroprozessor, einem Sender und einer      Antenne ausgestattet.
+* **Satelliten im Weltraum**\
+Die Satelliten umkreisen in regelmäßigen Intervallen die Erde und senden Signale. Jeder Satellit ist mit einer Uhr, einem Mikroprozessor, einem Sender und einer      Antenne ausgestattet.
 
-* **Kontrollstationen** 
- Die Bahnkoordinaten der Satelliten werden von der Erde aus bestimmt.
+* **Kontrollstationen**\ 
+Die Bahnkoordinaten der Satelliten werden von der Erde aus bestimmt.
 
-* **Nutzer / Empfänger**
- Empfängt Signale von Satelliten und verarbeitet diese.
+* **Nutzer / Empfänger**\
+Empfängt Signale von Satelliten und verarbeitet diese.
 
 Ein GNSS Empfänger ist ein Gerät, dass aus den Satellitensignalen die eigene Position ermittelt.
 Zur Positionsbestimmung muss der Empfänger die Signale von mindestens vier Satelliten gleichzeitig empfangen. Die Satelliten teilen über Funk ihre genaue Position und Uhrzeit mit. Im Empfänger werden dann die vier Signallaufzeiten (von den Satelliten zum Empfänger) errechnet. Aus diesen Daten wird dann die aktuelle Position inklusive der Höhe und der Uhrzeit des Empfängers ermittelt. 
