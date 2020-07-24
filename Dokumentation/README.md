@@ -233,15 +233,13 @@ Dieser Auszug wird wie folgt interpretiert:
 
 Die Umrechnung von Grad-Dezimalminuten in Dezimalgrad erfolgt folgendermaßen:\
 50° 56,46904=(56,46904/60)+50°=50,94115067°\
-06° 58,11390=(58,11390/60)+06°=6,968565°\
+06° 58,11390=(58,11390/60)+06°=6,968565°
 
-
-
-Der Abstand entlang der Längengrade lässt sich mit folgender Formel berechnen:
-dL=111,3*cos⁡((Breite 1+Breite 2)/2*π/180)*(Länge1-Länge2)
-Der Abstand entlang der Breitengrade lässt sich mit folgender Formel berechnen:
-dB=111,3*(Breite 1-Breite 2)
-Die Distanz zwischen den beiden Punkten lässt sich mit folgender Formel berechnen:
+Der Abstand entlang der Längengrade lässt sich mit folgender Formel berechnen:\
+dL=111,3*cos⁡((Breite 1+Breite 2)/2*π/180)*(Länge1-Länge2)\
+Der Abstand entlang der Breitengrade lässt sich mit folgender Formel berechnen:\
+dB=111,3*(Breite 1-Breite 2)\
+Die Distanz zwischen den beiden Punkten lässt sich mit folgender Formel berechnen:\
 Distanz= √(〖dL〗^2+〖dB〗^2 )
 
 ### Geschwindigkeitsmessung
