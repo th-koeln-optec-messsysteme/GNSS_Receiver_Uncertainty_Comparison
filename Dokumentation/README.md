@@ -122,10 +122,10 @@ DOP ist folglich ein Maß dafür, wie gut die Konstellation der Satelliten über
 ## Differential Global Positioning System DGPS
 DGPS bezeichnet ein Verfahren, dass durch ausstrahlen von Korrekturdaten über Bodenstationen die Genauigkeit der GNSS-Systeme steigern soll.
 
-## 3.4 Durchzuführende Messungen
+## Durchzuführende Messungen
 Für den Vergleich der GNSS-Empfänger sollen zwei maßgebliche Messungen durchgeführt werden; zum einen eine stationäre Langzeitmessung am GPS-Referenzpunkt in Köln und zum anderen eine Geschwindigkeitsmessung unter möglichst konstanten Rahmenbedingungen (Geschwindigkeit, Höhendifferenz, Störeinflüsse). 
 
-### 3.4.1 Langzeitmessung
+### Langzeitmessung
 Um die Genauigkeit der beiden Empfänger hinsichtlich ihrer Positionsbestimmung und Höhe zu ermitteln soll eine ca. dreistündige Messung am GPS-Referenzpunkt in Köln durchgeführt werden. Hierbei zeichnen wir die Datensätze „GGA“, „GSA“ und „GSV“ auf. Die Koordinaten des Referenzpunktes wurden mit einem hochpräzisen GPS-Empfänger bestimmt und beziehen sich auf die Mitte der Bronzeplatte.
 
 <img width="432" alt="Abbildung 4" src="https://user-images.githubusercontent.com/64781032/88392224-edc65d00-cdbb-11ea-91db-303e6cddf964.png"> 
@@ -155,11 +155,11 @@ $--GGA,hhmmss.ss,llll.ll,a,yyyyy.yy,a,x,xx,x.x,x.x,M,x.x,M,x.x,xxxx*hh
 
 Ein eventueller Zusammenhang mit der HDOP soll untersucht werden. Des Weiteren soll die Menge der empfangenen Satelliten verglichen werden.
 
-### 3.4.2 Geschwindigkeitsmessung
+### Geschwindigkeitsmessung
 Bei der Geschwindigkeitsmessung sollen Messungen unter konstanter Geschwindigkeit durchgeführt werden und mit einer Strecke-Zeitmessung verglichen werden. Dazu werden die Datensätze „VTG“, „GGA“, „GSA“ und „GSV“ aufgezeichnet. Der VTG-Datensatz gibt Aufschluss über die Geschwindigkeit, diese wird im Protokoll direkt in Kilometer pro Stunden ausgegeben.  Für die Strecke-Zeitmessung werden die Kilometertafeln am Rande der Autobahn gezählt und die Zeit mit einer Stoppuhr gemessen. Anhand der gemessenen Zeit und zurückgelegten Strecke kann eine Durchschnittsgeschwindigkeit zzgl. einem Fehler berechnet werden.
 
 
-## 3.5 Messaufbau
+## Messaufbau
 Zum Einlesen des NMEA Protokolls haben wir ein Python Programm geschrieben und uns dafür an bereits verfügbaren Bibliotheken bedient.
 
 Für einen einheitlichen Vergleich der beiden Empfänger wurde eine Platine mit den beiden Empfängern bestückt; somit nutzten sie beide die gleiche Antenne und andere für den Betrieb notwendige Bauteile. Über serielle Schnittstellen konnten die Daten der Empfänger ausgelesen werden. Die Stromversorgung der Platine ist zum einen extern, über einen separaten Anschluss möglich, zum anderen kann die Stromversorgung der Platine auch über eine der seriellen Schnittstelen erfolgen.
@@ -181,18 +181,18 @@ Messaufbau am Rhein:
 
 Abbildung 7
 
-# 4 Durchführung, Auswertung und Interpretation der Messungen
-## 4.1 Durchführung
-### 4.1.1 Langzeitmessung
+# Durchführung, Auswertung und Interpretation der Messungen
+## Durchführung
+### Langzeitmessung
 Für die Langzeitmessung wurde die Antenne der beiden Empfänger mittig auf der Bronze Platte des Kölner GPS-Referenzpunktes platziert. Über eine Zeit von ca. drei Stunden wurden die dafür ausgewählten Datensätze geloggt.
 
 
 
-### 4.1.2 Geschwindigkeitsmessung
+### Geschwindigkeitsmessung
 Bei der Geschwindigkeitsmessung wurde die Antenne der beiden Empfänger auf dem Autodach montiert. Über eine Strecke von ca. 5 Kilometern wurden auf einem möglichst geraden und ebenen Autobahnabschnitt die dafür ausgewählten Datensätze geloggt. Bei der Geschwindigkeitsmessung wurden Messungen mit ca. 80km/h und ca. 110km/h durchgeführt.
 
-## 4.2 Annahmen die wir für die Auswertung treffen werden
-### 4.2.1 Langzeitmessung
+## Annahmen die wir für die Auswertung treffen werden
+### Langzeitmessung
 Ziel der Langzeitmessung ist es festzustellen, ob beide GNSS-Empfänger gravierende/ sichtbare Abweichungen bei der Positionsbestimmung in Längen- und/oder Breitengraden, sowie der Höhe, haben.
 Die Erde ist ein Ellipsoid und kommt damit einer Kugel sehr nahe. Also können beliebige Punkte auf der Erde durch geografische Koordinaten beschrieben werden. Dafür wird die Erde wie folgt aufgeteilt:
 
@@ -242,7 +242,7 @@ dB=111,3*(Breite 1-Breite 2)\
 Die Distanz zwischen den beiden Punkten lässt sich mit folgender Formel berechnen:\
 Distanz= √(〖dL〗^2+〖dB〗^2 )
 
-### 4.2.2 Geschwindigkeitsmessung
+### Geschwindigkeitsmessung
 Für den Vergleich der Geschwindigkeitsmessungen der beiden Empfänger wird eine Strecke-Zeitmessung durchgeführt. Dafür wird folgende Formeln verwendet:\
 v=∆x/∆t\
 Eine Näherung für den Fehler wird wie folgt angenommen:\
@@ -251,8 +251,8 @@ Daraus ergibt sich die Geschwindigkeit:(v±∆v) wobei gilt:\
 v_max=v+∆v\
 v_min=v-∆v
 
-## 4.3 Auswertung
-### 4.3.1 Auswertung Langzeitmessung
+## Auswertung
+### Auswertung Langzeitmessung
 In den nachfolgenden Abbildungen ist die Abweichung der Messdaten in Länge und Breite aufgetragen. Abbildung 11 zeigt die gemessenen Abweichungen der beiden Empfänger bezogen auf den Referenzpunkt. 
 
 <img width="781" alt="Abbildung 11" src="https://user-images.githubusercontent.com/64781032/88392239-f28b1100-cdbb-11ea-9f30-3e36c5a70d84.png"> 
@@ -326,7 +326,7 @@ Hierbei lässt sich feststellen, dass die vom uBlox gemessene Höhe im Mittel et
 Auffällig ist das der Zhongkewei Empfänger im Mittel etwa 54,61m über der Referenzhöhe liegt und die Standardabweichung 14,49m ist.
 Des Weiteren wurde die Anzahl der empfangen Satelliten verglichen, es waren bei beiden Empfängern keine Auffälligkeiten festzustellen. Die Betrachtung der HDOP (Qualitätsmerkmal) ergab ebenfalls keine Auffälligkeiten, da die Werte sich konstant um 1 bewegt haben und somit im optimalen Bereich lagen. Daher konnte kein Zusammenhang zwischen HDOP und den Abweichungen der Positionsbestimmung festgestellt werden.
 
-### 4.3.2 Interpretation Langzeitmessung
+### Interpretation Langzeitmessung
 Folgend wird darauf eingegangen, wie sich entsprechende Differenzen zwischen den beiden Empfängern ergeben könnten. Dabei handelt es sich lediglich um Vermutungen die aufgrund der Komplexität des gesamten Themas, der immensen Masse an auszuwertenden Daten und der sehr kurzen Projektdauer nicht weiter belegt werden konnten.
 Die deutlich größere Streuung in der Positionsbestimmung zwischen Zhongkewei und uBlox Empfänger könnte zum einen daran liegen, dass der Zhongkewei Empfänger nur 2 GNSS-Systeme gleichzeitig verarbeiten kann und zum anderen kein DGPS empfängt.
 Eine weitere Auffälligkeit bei der Positionsbestimmung sind die linienartigen, zeitlich aufeinander auftretenden Ausreißer beim Zhongkewei Empfänger. 
@@ -343,7 +343,7 @@ Anhand der Histogramme lässt sich erkennen, dass beim uBlox Empfänger die Häu
 Anhand der Histogramme lässt sich erkennen, dass die ausgewerteten Daten des uBlox Empfängers annähernd der Erwartung der Normalverteilung entspricht, der Erwartungswert für dy jedoch nicht bei „0“ zentriert ist. Auffällig ist, dass der Zhongkewei-Empfänger deutlich mehr Werte über der erwarteten Normalverteilung nahe „0“ liefert. Daher lässt sich kaum feststellen welcher der beiden Empfänger tatsächlich eine genauere Positionsbestimmung zulässt.
 
 
-### 4.3.3 Auswertung Geschwindigkeitsmessung
+### Auswertung Geschwindigkeitsmessung
 Im Folgenden Diagrammen ist die aus den Empfängern berechnete Geschwindigkeit und die von uns über die Strecke und die Zeit ermittelte Geschwindigkeit zu sehen. Hier mit 80 km/h laut Tempomat.
 
 <img width="796" alt="Abbildung 23" src="https://user-images.githubusercontent.com/64781032/88392259-f74fc500-cdbb-11ea-9464-c71cd3d94db2.png">
@@ -360,7 +360,7 @@ Hier lässt sich beobachten, dass sowohl der Zhongkewei als auch der uBlox Empf�
 
 
 
-### 4.3.4 Interpretation Geschwindigkeitsmessung
+### Interpretation Geschwindigkeitsmessung
 Folgend wird darauf eingegangen, wie sich entsprechende Differenzen zwischen den beiden Empfängern ergeben könnten. Dabei handelt es sich lediglich um Vermutungen die aufgrund der Komplexität des gesamten Themas und der immensen Masse an auszuwertenden Daten nicht weiter belegt werden konnten.
 Die Abweichung beider Empfänger am Beginn der 110km/h Messung könnte am nachregeln des Tempomaten liegen.
 Es lässt sich eine Korrelation zwischen den Ausreißern der beiden Empfänger beobachten, diese sind beim uBlox Empfänger deutlich ausgeprägter als beim Zhongkewei. Hierbei lässt sich unsere Vermutung, dass der Zhongkewei Empfänger mit Mittelwerten der letzten Messungen arbeitet bestärken. Die wesentlich größeren Ausreißer des uBlox Empfängers deuten darauf hin, dass dieser jeden Messwert für sich interpretiert.
@@ -373,7 +373,7 @@ Abbildung 25
 Auch hier lässt sich die konstante Höhenabweichung zwischen den beiden Empfängern feststellen und unterstützt unsere Behauptung mit dem falsch interpretierten GGA-Datensatz des Zhongkewei Empfänger (siehe Interpretation Langzeitmessung).
 Interessant ist, dass sich über diesen kurzen Zeitverlauf die Empfänger bis auf das „Höhen-Offset“ ein sehr ähnliches Verhalten aufweisen und keine Ausreißer auftreten.
 
-# 5 Fazit
+# Fazit
 Ein direkter Vergleich der beiden Empfänger ist sehr schwierig, da beide Empfänger sich in ihren technischen Eigenschaften unterscheiden; der Zhongkewei Empfänger unterstützt lediglich normales GPS und der uBlox Empfänger korrigiertes GPS (DGPS). In Abmessungen und Gewicht unterscheiden sich die beiden Empfänger nicht signifikant voneinander. Ein weiterer Unterschied ist die maximale Höhe welche die Empfänger unterstützen; uBlox 50.000m und Zhongkewei 18.000m.
 In der Langzeitmessung hat sich gezeigt, dass die Positionsbestimmung beider Empfänger funktioniert; unter Berücksichtigung der Standardabweichung kommen beide Empfänger zu einem ähnlichen Ergebnis.
 In der Geschwindigkeitsmessung hat sich gezeigt, dass die Fehler der beiden Empfänger korrelieren und der uBlox Empfänger trotz seiner größeren Ausreißer sehr ähnliche Messungen liefert.
@@ -381,7 +381,7 @@ In der Geschwindigkeitsmessung hat sich gezeigt, dass die Fehler der beiden Empf
 Im gesamten lässt sich keine Aussage darüber treffen, ob einer der beiden Empfänger besser ist als der andere da sie sich beide sehr ähnlich sind. Es ist wichtig festzuhalten, dass die Auswahl eines Empfängers vom entsprechenden Einsatzbereich sehr stark abhängig ist und somit individuell entschieden werden muss, welche Eigenschaften für die entsprechende Anwendung gefordert ist.
 Aufgrund der enormen Datenmengen und der Komplexität des Themas ist dieses Projekt nur ein Anriss dessen, was zu den Empfängern in Erfahrung gebracht werden könnte. Vor allem die interne Übersetzung der Rohdaten in NMEA-Datensätze müsste weiter untersucht werden; dafür wären weitere, umfangreiche Messreihen unter Einbezug der Rohdaten erforderlich.
 
-# 6 Literaturverzeichnis
+# Literaturverzeichnis
 
 Globales Navigationssatellitensystem (2020),https://de.wikipedia.org/wiki/Globales_Navigationssatellitensystem, Abruf am 09.06.2020\
 Prof. Dr. techn. Alfred Mischke: Skript Teil 8: GNSS, https://www.ruhr-uni-bochum.de/geodaesie/download/Skript%20Teil%208%20-%20GNSS.pdf, Abruf am 11.06.2020\
@@ -393,7 +393,7 @@ Dilution of Precision (2019), https://de.wikipedia.org/wiki/Dilution_of_Precisio
 NMEA 0183 Datensätze, http://www.nmea.de/nmea0183datensaetze.html, Abruf am 10.07.2020\
 Martin Kompf: Entfernungsberechnung, https://www.kompf.de/gps/distcalc.html, Abruf am 10.07.2020
 
-# 7 Abbildungsverzeichnis
+# Abbildungsverzeichnis
 Abbildung 1	https://www.dlg.org/fileadmin/_processed_/1/6/csm_1_Laufzeitmessung_a19590f9d1.jpg\
 Abbildung 2	http://www.zogg-jm.ch/Dateien/aufbau_des_nmea.pdf\
 Abbildung 3	Eigene Darstellung\
