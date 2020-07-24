@@ -6,7 +6,7 @@
 	* [3.2-Dilution-of-Precision-DOP](#Dilution-of-Precision-DOP "Goto Dilution-of-Precision-DOP")	
 	* [3.3-Differential-Global-Positioning-System-DGPS](#Differential-Global-Positioning-System-DGPS "Goto Differential-Global-Positioning-System-DGPS")	
 	* [3.4Durchzuführende-Messungen](#Durchzuführende-Messungen "Goto Durchzuführende-Messungen")	
-4.4.1	[Langzeitmessung](#Langzeitmessung "Goto Langzeitmessung")	
+		* [4.4.1 Langzeitmessung](#Langzeitmessung "Goto Langzeitmessung")	
 4.4.2	[Geschwindigkeitsmessung](#Geschwindigkeitsmessung "Goto Geschwindigkeitsmessung")	
 4.5	[Messaufbau](#Messaufbau "Goto Messaufbau")	
 5	[Durchführung,-Auswertung-und-Interpretation-der-Messungen](#Durchführung,-Auswertung-und-Interpretation-der-Messungen "Goto Durchführung,-Auswertung-und-Interpretation-der-Messungen")	
