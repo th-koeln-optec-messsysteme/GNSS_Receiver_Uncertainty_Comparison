@@ -82,6 +82,7 @@ Die Übertragung des NMEA Protokolls beginnt mit dem Start-Bit (logische Null) d
 <img width="656" alt="Abbildung 2" src="https://user-images.githubusercontent.com/64781032/88392212-ea32d600-cdbb-11ea-918a-ec764629f472.png"> 
 Abbildung 2
 
+
 Das NMEA Protokoll besteht aus drei Hauptbestandteilen, der Präambel, der Nachricht und der Checksumme. Folgendes Beispiel zeigt einen GGA-Datensatz im NMEA Protokoll.
 
 <img width="726" alt="Abbildung 3" src="https://user-images.githubusercontent.com/64781032/88392219-ec953000-cdbb-11ea-94fb-5955a59cb825.png"> 
