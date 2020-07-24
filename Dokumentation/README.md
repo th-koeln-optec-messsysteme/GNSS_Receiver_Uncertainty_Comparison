@@ -31,11 +31,10 @@ GNSS steht für Globales Navigationssatellitensystem (engl. Global Navigation Sa
 GNSS ist ein Sammelbegriff für die verschiedenen globalen Satellitensysteme
 
 
-&nbsp;
-	* NAVSTAR GPS (Global Positioning System) von den Vereinigten Staaten von Amerika
-	* GLONASS (Globales Satellitennavigationssystem) von der Russischen Föderation
-	* Galileo von der Europäischen Union
-	* Beidou von der Volksrepublik China
+* NAVSTAR GPS (Global Positioning System) von den Vereinigten Staaten von Amerika
+*GLONASS (Globales Satellitennavigationssystem) von der Russischen Föderation
+*Galileo von der Europäischen Union
+* Beidou von der Volksrepublik China
 	
 
 &nbsp;	
