@@ -56,8 +56,8 @@ Abbildung 1
 Folgend die wesentlichen Unterschiede/Gemeinsamkeiten der zu vergleichenden Empfänger auf Grundlage der Datenblätter.
 
 |Merkmal|uBlox Max-M8-FW31|Zhongkewei ATGM336H-5N31| 
-|---|---|---|
-|Preis|	                                                      |9,06 $|	                             2,94 $|
+|---|:---:|:---:|
+|Preis|	                                                      9,06 $|	                             2,94 $|
 |Gleichzeitiger Empfang von GNSS Systemen (max.)|	              3|	                                    2|
 |Untestützte GNSS Systeme|	                         GPS/BEIDOU/GLONASS/GALILEO|	GPS/BEIDOU/GLONASS/Galileo|
 |Qualitätsindex|	                                      Differential GPS fix|	                      GPS fix|
