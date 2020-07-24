@@ -259,8 +259,9 @@ In Abbildung 12 ist der Schwerpunkt (blaues „X“) der ausgewerteten Daten des
 Abbildung 12
 
 In Abbildung 13 ist das Histogramm der ausgewerteten Abweichungen des uBlox Empfängers zum Referenzpunkt in dx und dy Richtung mit entsprechenden Häufigkeiten aufgetragen.
- 
-Abbildung 13
+
+![Abbildung 13](https://user-images.githubusercontent.com/64781032/88394037-0126f780-cdbf-11ea-8a04-b38fc1a044b6.png)
+ Abbildung 13
 
 In Abbildung 14 ist der Schwerpunkt (rotes „X“) der ausgewerteten Daten des Zhongkewei Empfängers inklusive der Standardabweichung (kleiner Kreis um „X“) zu sehen.
 
@@ -268,8 +269,10 @@ In Abbildung 14 ist der Schwerpunkt (rotes „X“) der ausgewerteten Daten des 
 Abbildung 14
 
 In Abbildung 15 ist das Histogramm der ausgewerteten Abweichungen des Zhongkewei Empfängers zum Referenzpunkt in dx und dy Richtung mit entsprechenden Häufigkeiten aufgetragen.
- 
+
+![Abbildung 15](https://user-images.githubusercontent.com/64781032/88394040-03895180-cdbf-11ea-9582-d7b119063e13.png) 
 Abbildung 15
+
 Beim uBlox Empfänger lässt sich beobachten, dass es zwar Abweichungen zum Referenzpunkt gibt, diese jedoch nicht signifikant von den Vorgaben aus dem Datenblatt abweichen (2,5 - 4m). Zusätzlich lässt sich anhand des Schwerpunktes (Abbildung 12) eine leichte Abweichung in nördliche Richtung feststellen. Der Referenzpunkt liegt beim uBlox Empfänger außerhalb der Standardabweichung vom Schwerpunkt.
 Der Zhongkewei Empfänger weist ein wesentlich größeres Streubild der Messwerte auf, hierbei ist kein eindeutiger Trend zu erkennen. Der Referenzpunkt liegt innerhalb der Standardabweichung vom Schwerpunkt des Zhongkewei Empfängers.
 In den nachfolgenden Abbildungen ist der aus x- und y-Abweichungen kombinierte Abstand der Messwerte zum GPS-Referenzpunkt aufgetragen. Abbildung 16 zeigt die gesamte Abweichung der beiden Empfänger bezogen auf den Referenzpunkt.
@@ -394,6 +397,6 @@ Abbildung 21	Eigene Darstellung\
 Abbildung 22	Eigene Darstellung\
 Abbildung 23	Eigene Darstellung\
 Abbildung 24	Eigene Darstellung\
-Abbildung 25	Eigene Darstellun
+Abbildung 25	Eigene Darstellung
 
 
