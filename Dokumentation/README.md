@@ -1,5 +1,5 @@
 Inhaltsverzeichnis
-2	Was ist GNSS?	
+2	Was ist GNSS?[Was-ist-GNSS?](#Was-ist-GNSS? "Goto Was-ist-GNSS?")	
 3	Vorstellung der zu vergleichenden Empfänger	
 4	Vorbereitungen für den Vergleich der Empfänger	
 4.1	Aufbau des NMEA Protokolls	
