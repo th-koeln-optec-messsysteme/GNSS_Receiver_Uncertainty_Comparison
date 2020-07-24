@@ -1,5 +1,5 @@
 # Inhaltsverzeichnis\
-* [1 Was-ist-GNSS?](#1 Was-ist-GNSS? "Goto 1 Was-ist-GNSS?")	
+* [1 Was-ist-GNSS?](#1-Was-ist-GNSS? "Goto 1 Was-ist-GNSS?")	
 * [2 Vorstellung-der-zu-vergleichenden-Empfänger](#Vorstellung-der-zu-vergleichenden-Empfänger "Goto Vorstellung-der-zu-vergleichenden-Empfänger")	
 * [3 Vorbereitungen-für-den-Vergleich-der-Empfänger](#Vorbereitungen-für-den-Vergleich-der-Empfänger "Goto Vorbereitungen-für-den-Vergleich-der-Empfänger")	
 	* [3.1 Aufbau-des-NMEA-Protokolls](#Aufbau-des-NMEA-Protokolls "Goto Aufbau-des-NMEA-Protokolls")	
