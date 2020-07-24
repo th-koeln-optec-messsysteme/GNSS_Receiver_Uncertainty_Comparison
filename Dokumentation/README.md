@@ -78,18 +78,13 @@ NMEA 0183 ist ein Kommunikationsprotokoll welches für die Kommunikation zwische
 NMEA-Datensätze.
 Die erste Version, die allerdings nicht öffentlich war sondern Militärzwecken diente, wurde im März 1983 freigegeben. Die aktuellste Version ist die 2012 erschienene Version 4.10.  
 Die Übertragung des NMEA Protokolls beginnt mit dem Start-Bit (logische Null) darauf folgen acht Daten-Bits, zum Schluss folgt ein Stopp-Bit (logische Null).
- 
+
+<img width="656" alt="Abbildung 2" src="https://user-images.githubusercontent.com/64781032/88392212-ea32d600-cdbb-11ea-918a-ec764629f472.png"> 
 Abbildung 2
-
-
-
-
-
-
 
 Das NMEA Protokoll besteht aus drei Hauptbestandteilen, der Präambel, der Nachricht und der Checksumme. Folgendes Beispiel zeigt einen GGA-Datensatz im NMEA Protokoll.
 
- 
+<img width="726" alt="Abbildung 3" src="https://user-images.githubusercontent.com/64781032/88392219-ec953000-cdbb-11ea-94fb-5955a59cb825.png"> 
 Abbildung 3
 Die Präambel enthält Informationen über den Start der Nachricht, das verwendete Satellitensystem und den empfangenen Datensatz.
 	GP steht für GPS 
@@ -127,7 +122,8 @@ Für den Vergleich der GNSS-Empfänger sollen zwei maßgebliche Messungen durchg
 
 ### Langzeitmessung
 Um die Genauigkeit der beiden Empfänger hinsichtlich ihrer Positionsbestimmung und Höhe zu ermitteln soll eine ca. dreistündige Messung am GPS-Referenzpunkt in Köln durchgeführt werden. Hierbei zeichnen wir die Datensätze „GGA“, „GSA“ und „GSV“ auf. Die Koordinaten des Referenzpunktes wurden mit einem hochpräzisen GPS-Empfänger bestimmt und beziehen sich auf die Mitte der Bronzeplatte.
- 
+
+<img width="432" alt="Abbildung 4" src="https://user-images.githubusercontent.com/64781032/88392224-edc65d00-cdbb-11ea-91db-303e6cddf964.png"> 
 Abbildung 4
 
 Der GGA-Datensatz (GPS Fix Data) enthält Werte um einen guten Gesamtvergleich zwischen den beiden Empfängern treffen zu können. Er umfasst Informationen bezüglich Zeit, geographischer Länge und Breite, Qualität des Systems, Anzahl der genutzten Satelliten, Höhe und weitere. Der GGA Datensatz ist wie folgt aufgebaut:
@@ -161,15 +157,17 @@ Bei der Geschwindigkeitsmessung sollen Messungen unter konstanter Geschwindigkei
 Zum Einlesen des NMEA Protokolls haben wir ein Python Programm geschrieben und uns dafür an bereits verfügbaren Bibliotheken bedient.
 
 Für einen einheitlichen Vergleich der beiden Empfänger wurde eine Platine mit den beiden Empfängern bestückt; somit nutzten sie beide die gleiche Antenne und andere für den Betrieb notwendige Bauteile. Über serielle Schnittstellen konnten die Daten der Empfänger ausgelesen werden. Die Stromversorgung der Platine ist zum einen extern, über einen separaten Anschluss möglich, zum anderen kann die Stromversorgung der Platine auch über eine der seriellen Schnittstelen erfolgen.
- 
+
+<img width="563" alt="Abbildung 5" src="https://user-images.githubusercontent.com/64781032/88392228-ef902080-cdbb-11ea-8936-776af80f8d7a.png"> 
 Abbildung 5
 
 
 Messaufbau:
- 
+<img width="419" alt="Abbildung 6" src="https://user-images.githubusercontent.com/64781032/88392230-f028b700-cdbb-11ea-9d87-703906da4757.png"> 
 Abbildung 6
+
 Messaufbau am Rhein:
- 
+<img width="466" alt="Abbildung 7" src="https://user-images.githubusercontent.com/64781032/88392231-f028b700-cdbb-11ea-943c-a225b0ddc9cb.png"> 
 Abbildung 7
 # Durchführung, Auswertung und Interpretation der Messungen
 ## Durchführung
@@ -188,12 +186,15 @@ Die Erde ist ein Ellipsoid und kommt damit einer Kugel sehr nahe. Also können b
 
 Längengrade 180° West bis 180° Ost, verlaufend zwischen Nord- und Südpol und
 Breitengrade 90° Nord bis 90° Süd verlaufend um den Äquator.
- 
+
+<img width="282" alt="Abbildung 8" src="https://user-images.githubusercontent.com/64781032/88392234-f159e400-cdbb-11ea-81dc-c277a63540ad.png"> 
 Abbildung 8
+
 Die einzelnen Längen- und Breitengrade werden noch einmal unterteilt dargestellt, ein Grad wird in 60 Minuten und eine Minute wird weiter in 60 Sekunden unterteilt.
 Es gibt unterschiedliche Möglichkeiten Koordinaten darzustellen:
- 
+<img width="717" alt="Abbildung 9" src="https://user-images.githubusercontent.com/64781032/88392235-f1f27a80-cdbb-11ea-92cf-095fb19221b8.png"> 
 Abbildung 9
+
 Der Abstand zwischen den Breitengraden ist konstant bei 111,3 km, der Abstand zwischen den Längengraden variiert jedoch und ist abhängig davon, auf welchem Breitengrad man sich befindet.
 
 Nach folgender Formel lässt sich der Abstand zweier Längengrade berechnen:
@@ -201,8 +202,9 @@ dL=111,3 km*cos⁡(Breitengrad)
 
 Um nun die Entfernung zwischen zwei Punkten zu berechnen nutzt man den Satz des Pythagoras. Da der kürzeste Weg zwischen zwei Punkten allerdings durch den Erdball und nicht um ihn herum verläuft muss man zusätzlich die Erdkrümmung berücksichtigen. Für diesen Fall (über weite Entfernungen) muss man die Loxodrome (in der Grafik rot) umrechnen um die sogenannten Orthodrome (in Grafik blau) zu erhalten; die Loxodrome sind immer ein Teilstück des Großkreises (Orthodrome).
 
- 
+<img width="321" alt="Abbildung 10" src="https://user-images.githubusercontent.com/64781032/88392236-f1f27a80-cdbb-11ea-97c9-00957fa3a89b.png"> 
 Abbildung 10
+
 Bei der Langzeitmessung am Kölner GPS-Referenzpunkt sollten sich aufgrund der geringen Abweichungen, max. 2,5 - 4m laut Datenblättern im Vergleich zum Erdradius (6.371.000m),   keine signifikanten Abweichungen aufgrund der Erdkrümmung ergeben, daher wird die Erdkrümmung im Folgenden vernachlässigt.
 Das NMEA-Protokoll gibt die Koordinaten in Grad-Dezimalminuten aus, da aber die folgenden Rechnungen auf Dezimalgrad basieren ist eine vorherige Umrechnung in dieses Format nötig .
 Hier ein Beispiel aus einer Messung:
@@ -247,7 +249,7 @@ Daraus ergibt sich die Geschwindigkeit: (v±∆v) wobei gilt:
 ## Auswertung
 ### Auswertung Langzeitmessung
 In den nachfolgenden Abbildungen ist die Abweichung der Messdaten in Länge und Breite aufgetragen. Abbildung 11 zeigt die gemessenen Abweichungen der beiden Empfänger bezogen auf den Referenzpunkt. 
- 
+<img width="781" alt="Abbildung 11" src="https://user-images.githubusercontent.com/64781032/88392239-f28b1100-cdbb-11ea-9f30-3e36c5a70d84.png"> 
 Abbildung 11
 
 
@@ -261,50 +263,55 @@ Abbildung 11
 
 
 In Abbildung 12 ist der Schwerpunkt (blaues „X“) der ausgewerteten Daten des uBlox Empfängers inklusive der Standardabweichung (kleiner Kreis um „X“) dargestellt.
- 
+
+<img width="764" alt="Abbildung 12" src="https://user-images.githubusercontent.com/64781032/88392243-f323a780-cdbb-11ea-87a1-d5cd5152103c.png"> 
 Abbildung 12
+
 In Abbildung 13 ist das Histogramm der ausgewerteten Abweichungen des uBlox Empfängers zum Referenzpunkt in dx und dy Richtung mit entsprechenden Häufigkeiten aufgetragen.
  
 Abbildung 13
+
 In Abbildung 14 ist der Schwerpunkt (rotes „X“) der ausgewerteten Daten des Zhongkewei Empfängers inklusive der Standardabweichung (kleiner Kreis um „X“) zu sehen.
- 
+
+<img width="773" alt="Abbildung 14" src="https://user-images.githubusercontent.com/64781032/88392245-f3bc3e00-cdbb-11ea-9694-56929bda8049.png"> 
 Abbildung 14
+
 In Abbildung 15 ist das Histogramm der ausgewerteten Abweichungen des Zhongkewei Empfängers zum Referenzpunkt in dx und dy Richtung mit entsprechenden Häufigkeiten aufgetragen.
  
 Abbildung 15
 Beim uBlox Empfänger lässt sich beobachten, dass es zwar Abweichungen zum Referenzpunkt gibt, diese jedoch nicht signifikant von den Vorgaben aus dem Datenblatt abweichen (2,5 - 4m). Zusätzlich lässt sich anhand des Schwerpunktes (Abbildung 12) eine leichte Abweichung in nördliche Richtung feststellen. Der Referenzpunkt liegt beim uBlox Empfänger außerhalb der Standardabweichung vom Schwerpunkt.
 Der Zhongkewei Empfänger weist ein wesentlich größeres Streubild der Messwerte auf, hierbei ist kein eindeutiger Trend zu erkennen. Der Referenzpunkt liegt innerhalb der Standardabweichung vom Schwerpunkt des Zhongkewei Empfängers.
 In den nachfolgenden Abbildungen ist der aus x- und y-Abweichungen kombinierte Abstand der Messwerte zum GPS-Referenzpunkt aufgetragen. Abbildung 16 zeigt die gesamte Abweichung der beiden Empfänger bezogen auf den Referenzpunkt.
- 
+
+<img width="751" alt="Abbildung 16" src="https://user-images.githubusercontent.com/64781032/88392248-f454d480-cdbb-11ea-8f91-0185200f1d9e.png"> 
 Abbildung 16
 
-
-
-
-
-
-
-
-
 In der nachfolgende Abbildung 17 ist der kombinierte Abstand der Messwerte des uBlox Empfängers zum GPS-Referenzpunkt, inklusive des Mittelwertes (blau) der Standardabweichung (rot) aufgetragen.
- 
+
+<img width="742" alt="Abbildung 17" src="https://user-images.githubusercontent.com/64781032/88392250-f4ed6b00-cdbb-11ea-9f24-8add35851250.png"> 
 Abbildung 17
+
 In der nachfolgende Abbildung 18 ist der kombinierte Abstand der Messwerte des Zhongkewei Empfängers zum GPS-Referenzpunkt, inklusive des Mittelwertes (gelb) der Standardabweichung (rot) aufgetragen
- 
+
+<img width="752" alt="Abbildung 18" src="https://user-images.githubusercontent.com/64781032/88392252-f5860180-cdbb-11ea-928f-27d835472758.png"> 
 Abbildung 18
+
 In den Abbildungen 17 und 18 wird deutlich, dass die Standardabweichung des uBlox Empfängers (1,55m) wesentlich geringer ist als die des Zhongkewei Empfängers (3,97m). Es lässt sich feststellen, dass der Zhongkewei Empfänger im Schnitt einen größeren Abstand zum Referenzpunkt besitzt.
 In Abbildung 19 sind die Höhen der beiden Empfänger, sowie deren Mittelwerte, im Verhältnis zur Höhe des Kölner Referenzpunkt zu sehen.
- 
+
+<img width="776" alt="Abbildung 19" src="https://user-images.githubusercontent.com/64781032/88392254-f61e9800-cdbb-11ea-8c7c-596b08794383.png"> 
 Abbildung 19
+
 In der nachfolgende Abbildung 20 ist die Höhe des uBlox Empfängers zum GPS-Referenzpunkt (rot), inklusive des Mittelwertes (blau) und der Standardabweichung (schwarz) aufgetragen. 
 
- 
+<img width="745" alt="Abbildung 20" src="https://user-images.githubusercontent.com/64781032/88392255-f61e9800-cdbb-11ea-9d3c-70a9bc7c596d.png"> 
 Abbildung 20
 
-
 In der nachfolgende Abbildung 21 ist die Höhe des Zhongkewei Empfängers zum GPS-Referenzpunkt (rot), inklusive des Mittelwertes (gelb) und der Standardabweichung (schwarz) aufgetragen.
- 
+
+<img width="738" alt="Abbildung 21" src="https://user-images.githubusercontent.com/64781032/88392257-f6b72e80-cdbb-11ea-8863-e4917e5125a6.png"> 
 Abbildung 21
+
 Hierbei lässt sich feststellen, dass die vom uBlox gemessene Höhe im Mittel etwa 1,52m über der Referenzhöhe 55,38m liegt. Die Standardabweichung des uBlox Empfängers ist 3,10m.
 Auffällig ist das der Zhongkewei Empfänger im Mittel etwa 54,61m über der Referenzhöhe liegt und die Standardabweichung 14,49m ist.
 Des Weiteren wurde die Anzahl der empfangen Satelliten verglichen, es waren bei beiden Empfängern keine Auffälligkeiten festzustellen. Die Betrachtung der HDOP (Qualitätsmerkmal) ergab ebenfalls keine Auffälligkeiten, da die Werte sich konstant um 1 bewegt haben und somit im optimalen Bereich lagen. Daher konnte kein Zusammenhang zwischen HDOP und den Abweichungen der Positionsbestimmung festgestellt werden.
@@ -316,8 +323,10 @@ Eine weitere Auffälligkeit bei der Positionsbestimmung sind die linienartigen, 
 Diese aufeinanderfolgenden Ausreißer können ein Hinweis darauf sein, dass der Zhongkewei Empfänger mit Mittelwerten der letzten Messwerte arbeitet. Die dichte Wolke des uBlox Empfängers weist keine solcher zusammenhängenden Ausreißer auf also ist anzunehmen, dass der uBlox Empfänger jeden einzelnen Messwert auswertet.
 Die deutliche Abweichung in der Höhe des Zhongkewei Empfängers könnte durch eine Fehlinterpretation seinerseits im GGA Protokoll entstehen; der uBlox Empfänger stellt die Geodiale- und Ellipsoidiale Höhe an den entsprechenden Stellen im GGA Protokoll separat voneinander dar, so ist es im Protokoll auch vorgesehen.
 Im direkten Vergleich stellt der Zhongkewei Empfänger den geodialen Wert deutlich größer dar, der ellipsoidiale Wert ist dauerhaft „0“. Auffällig ist, dass die Summe aus geodialer und ellipsoidialer Höhen des uBlox Empfängers annähernd dem geodialen Wert des Zhongkewei Empfängers entspricht.
- 
+
+<img width="708" alt="Abbildung 22" src="https://user-images.githubusercontent.com/64781032/88392258-f74fc500-cdbb-11ea-8c45-6ad9b51793b9.png">
 Abbildung 22
+
 Der maximale Messbereich der Höhe beträgt beim uBlox Empfänger 50.000m und beim Zhongkewei 18.000m, da wir unsere Empfänger nicht im Grenzbereich betreiben sollte sich dieser Unterschied nicht auf unsere Messung auswirken.
 Anhand der Histogramme lässt sich erkennen, dass beim uBlox Empfänger die Häufigkeit einer Abweichung breiter um „0“ gestreut ist als beim Zhongkewei Empfänger. 
 Anhand der Histogramme lässt sich erkennen, dass die ausgewerteten Daten des uBlox Empfängers annähernd der Erwartung der Normalverteilung entspricht, der Erwartungswert für dy jedoch nicht bei „0“ zentriert ist. Auffällig ist, dass der Zhongkewei-Empfänger deutlich mehr Werte über der erwarteten Normalverteilung nahe „0“ liefert. Daher lässt sich kaum feststellen welcher der beiden Empfänger tatsächlich eine genauere Positionsbestimmung zulässt.
@@ -325,11 +334,15 @@ Anhand der Histogramme lässt sich erkennen, dass die ausgewerteten Daten des uB
 
 ### Auswertung Geschwindigkeitsmessung
 Im Folgenden Diagrammen ist die aus den Empfängern berechnete Geschwindigkeit und die von uns über die Strecke und die Zeit ermittelte Geschwindigkeit zu sehen. Hier mit 80 km/h laut Tempomat.
- 
+
+<img width="796" alt="Abbildung 23" src="https://user-images.githubusercontent.com/64781032/88392259-f74fc500-cdbb-11ea-9464-c71cd3d94db2.png">
 Abbildung 23
+
 Eine zweite Messung mit 110 km/h laut Tempomat:
- 
+
+<img width="789" alt="Abbildung 24" src="https://user-images.githubusercontent.com/64781032/88392261-f7e85b80-cdbb-11ea-93de-e292c0cad93b.png"> 
 Abbildung 24
+
 Hier lässt sich beobachten, dass sowohl der Zhongkewei als auch der uBlox Empfänger nicht wesentlich von der Strecke-Zeitmessung abweichen und sogar im Toleranzbereich des geschätzten Fehlers liegen. Lediglich beim uBlox Empfänger gibt es einige wenige Ausreißer.
 
 
@@ -339,13 +352,12 @@ Folgend wird darauf eingegangen, wie sich entsprechende Differenzen zwischen den
 Die Abweichung beider Empfänger am Beginn der 110km/h Messung könnte am nachregeln des Tempomaten liegen.
 Es lässt sich eine Korrelation zwischen den Ausreißern der beiden Empfänger beobachten, diese sind beim uBlox Empfänger deutlich ausgeprägter als beim Zhongkewei. Hierbei lässt sich unsere Vermutung, dass der Zhongkewei Empfänger mit Mittelwerten der letzten Messungen arbeitet bestärken. Die wesentlich größeren Ausreißer des uBlox Empfängers deuten darauf hin, dass dieser jeden Messwert für sich interpretiert.
 Um unsere Behauptung über die konstante Höhenabweichung von ca. 45m noch einmal zu stützen, sind im Folgenden die Höhenverläufe der beiden Empfänger während der Geschwindigkeitsmessungen zu sehen.
- 
+
+<img width="768" alt="Abbildung 25" src="https://user-images.githubusercontent.com/64781032/88392262-f7e85b80-cdbb-11ea-9036-ef9307bba82e.png"> 
 Abbildung 25
+
 Auch hier lässt sich die konstante Höhenabweichung zwischen den beiden Empfängern feststellen und unterstützt unsere Behauptung mit dem falsch interpretierten GGA-Datensatz des Zhongkewei Empfänger (siehe Interpretation Langzeitmessung).
 Interessant ist, dass sich über diesen kurzen Zeitverlauf die Empfänger bis auf das „Höhen-Offset“ ein sehr ähnliches Verhalten aufweisen und keine Ausreißer auftreten.
-
-
-
 
 # Fazit
 Ein direkter Vergleich der beiden Empfänger ist sehr schwierig, da beide Empfänger sich in ihren technischen Eigenschaften unterscheiden; der Zhongkewei Empfänger unterstützt lediglich normales GPS und der uBlox Empfänger korrigiertes GPS (DGPS). In Abmessungen und Gewicht unterscheiden sich die beiden Empfänger nicht signifikant voneinander. Ein weiterer Unterschied ist die maximale Höhe welche die Empfänger unterstützen; uBlox 50.000m und Zhongkewei 18.000m.
@@ -355,19 +367,9 @@ In der Geschwindigkeitsmessung hat sich gezeigt, dass die Fehler der beiden Empf
 Im gesamten lässt sich keine Aussage darüber treffen, ob einer der beiden Empfänger besser ist als der andere da sie sich beide sehr ähnlich sind. Es ist wichtig festzuhalten, dass die Auswahl eines Empfängers vom entsprechenden Einsatzbereich sehr stark abhängig ist und somit individuell entschieden werden muss, welche Eigenschaften für die entsprechende Anwendung gefordert ist.
 Aufgrund der enormen Datenmengen und der Komplexität des Themas ist dieses Projekt nur ein Anriss dessen, was zu den Empfängern in Erfahrung gebracht werden könnte. Vor allem die interne Übersetzung der Rohdaten in NMEA-Datensätze müsste weiter untersucht werden; dafür wären weitere, umfangreiche Messreihen unter Einbezug der Rohdaten erforderlich.
 
-
-
-
-
-
-
-
-
-
 # Literaturverzeichnis
 
-Globales Navigationssatellitensystem (2020),https://de.wikipedia.org/wiki/Globales_
-Navigationssatellitensystem, Abruf am 09.06.2020
+Globales Navigationssatellitensystem (2020),https://de.wikipedia.org/wiki/Globales_Navigationssatellitensystem, Abruf am 09.06.2020
 Prof. Dr. techn. Alfred Mischke: Skript Teil 8: GNSS, https://www.ruhr-uni-bochum.de/geodaesie/download/Skript%20Teil%208%20-%20GNSS.pdf, Abruf am 11.06.2020
 uBlox Datenblatt: MAX-M8 series, https://www.u-blox.com/sites/default/files/MAX-M8-FW3_DataSheet_(UBX-15031506).pdf, Abruf am 03.06.2020
 Zhongkewei Datenblatt: ATGM336H-5N,https://datasheet.lcsc.com/szlcsc/ 1810261521_ZHONGKEWEI-ATGM336H-5N31_C90770.pdf, Abruf am 03.06.2020
