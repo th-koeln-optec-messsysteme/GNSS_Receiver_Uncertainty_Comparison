@@ -238,7 +238,7 @@ Daraus ergibt sich die Geschwindigkeit: (v±∆v) wobei gilt:
 ### Auswertung Langzeitmessung
 In den nachfolgenden Abbildungen ist die Abweichung der Messdaten in Länge und Breite aufgetragen. Abbildung 11 zeigt die gemessenen Abweichungen der beiden Empfänger bezogen auf den Referenzpunkt. 
 
-<img width="781" alt="Abbildung 11" src="https://user-images.githubusercontent.com/64781032/88392239-f28b1100-cdbb-11ea-9f30-3e36c5a70d84.png">\ 
+<img width="781" alt="Abbildung 11" src="https://user-images.githubusercontent.com/64781032/88392239-f28b1100-cdbb-11ea-9f30-3e36c5a70d84.png"> 
 Abbildung 11
 
 In Abbildung 12 ist der Schwerpunkt (blaues „X“) der ausgewerteten Daten des uBlox Empfängers inklusive der Standardabweichung (kleiner Kreis um „X“) dargestellt.
@@ -246,12 +246,12 @@ In Abbildung 12 ist der Schwerpunkt (blaues „X“) der ausgewerteten Daten des
 <img width="764" alt="Abbildung 12" src="https://user-images.githubusercontent.com/64781032/88392243-f323a780-cdbb-11ea-87a1-d5cd5152103c.png"> 
 Abbildung 12
 
-In Abbildung 13 ist das Histogramm der ausgewerteten Abweichungen des uBlox Empfängers zum Referenzpunkt in dx und dy Richtung mit entsprechenden Häufigkeiten aufgetragen.\
+In Abbildung 13 ist das Histogramm der ausgewerteten Abweichungen des uBlox Empfängers zum Referenzpunkt in dx und dy Richtung mit entsprechenden Häufigkeiten aufgetragen.
 
 ![Abbildung 13](https://user-images.githubusercontent.com/64781032/88394037-0126f780-cdbf-11ea-8a04-b38fc1a044b6.png)
- Abbildung 13
+\Abbildung 13\
 
-In Abbildung 14 ist der Schwerpunkt (rotes „X“) der ausgewerteten Daten des Zhongkewei Empfängers inklusive der Standardabweichung (kleiner Kreis um „X“) zu sehen.\
+In Abbildung 14 ist der Schwerpunkt (rotes „X“) der ausgewerteten Daten des Zhongkewei Empfängers inklusive der Standardabweichung (kleiner Kreis um „X“) zu sehen.
 
 <img width="773" alt="Abbildung 14" src="https://user-images.githubusercontent.com/64781032/88392245-f3bc3e00-cdbb-11ea-9694-56929bda8049.png"> 
 Abbildung 14
