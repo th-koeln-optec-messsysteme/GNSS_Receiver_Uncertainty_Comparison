@@ -117,6 +117,7 @@ DOP ist folglich ein Maß dafür, wie gut die Konstellation der Satelliten über
 |0-2,5|	Bestmögliche Anordnung| 
 |2,5-8|	Noch akzeptabel|
 |-| -|
+
 |>8|	Keine Auswertung mehr möglich| 
 |-| -|
 
