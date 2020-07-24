@@ -47,18 +47,24 @@ Es werden also mindestens vier Laufzeiten von den Satelliten zur Empfangsantenne
 Jede dieser Empfangslaufzeiten steht für eine Pseudoentfernung und definiert eine Kugelfläche um den dazugehörigen Satelliten. Drei der vier Kugelflächen bilden einen Schnittpunkt am Standort des Empfängers, die anderen Schnittpunkte der Kugelflächen sind zu vernachlässigen.
 Der vierte Satellit ermittelt die Abweichung zwischen den Uhren der Satelliten und der des Empfängers, um die Pseudoentfernungen in die tatsächlichen Entfernungen umzurechnen. 
 
+
+
+
+Abbildung 1
+
 # Vorstellung der zu vergleichenden Empfänger
 Folgend die wesentlichen Unterschiede/Gemeinsamkeiten der zu vergleichenden Empfänger auf Grundlage der Datenblätter.
 
-Merkmal	                                              uBlox Max-M8-FW31 	              Zhongkewei ATGM336H-5N31 
-Preis	                                                      9,06 $	                             2,94 $
-Gleichzeitiger Empfang von GNSS Systemen (max.)	              3	                                    2
-Untestützte GNSS Systeme	                         GPS/BEIDOU/GLONASS/GALILEO	G         PS/BEIDOU/GLONASS/Galileo
-Qualitätsindex	                                      Differential GPS fix	                      GPS fix
-Höhe (max.)	                                                50.000m	                              18.000m
-Geschwindigkeit (max.)	                                    500 m/s	                              515 m/s
-Beschleunigung (max.)	                                        4 g	                                  4 g
-Positionsgenauigkeit	                                     2,5 - 4 m	                              2,5 m
+|Merkmal|uBlox Max-M8-FW31|Zhongkewei ATGM336H-5N31| 
+|---|---|---|
+|Preis|	                                                      |9,06 $|	                             2,94 $|
+|Gleichzeitiger Empfang von GNSS Systemen (max.)|	              3|	                                    2|
+|Untestützte GNSS Systeme|	                         GPS/BEIDOU/GLONASS/GALILEO|	GPS/BEIDOU/GLONASS/Galileo|
+|Qualitätsindex|	                                      Differential GPS fix|	                      GPS fix|
+|Höhe (max.)|	                                                50.000m|	                              18.000m|
+|Geschwindigkeit (max.)|	                                    500 m/s|	                              515 m/s|
+|Beschleunigung (max.)|	                                        4 g|	                                  4 g|
+|Positionsgenauigkeit|	                                     2,5 - 4 m|	                              2,5 m|
 
 # Vorbereitungen für den Vergleich der Empfänger
 ## Aufbau des NMEA Protokolls
