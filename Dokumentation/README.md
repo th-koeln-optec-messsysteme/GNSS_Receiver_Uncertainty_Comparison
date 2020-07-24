@@ -248,8 +248,8 @@ v=∆x/∆t\
 Eine Näherung für den Fehler wird wie folgt angenommen:\
 ∆v=v*(∆x/x+∆t/t)\
 Daraus ergibt sich die Geschwindigkeit:(v±∆v) wobei gilt:\
- v_max=v+∆v\ 
- v_min=v-∆v
+v_max=v+∆v\ 
+v_min=v-∆v
 
 ## Auswertung
 ### Auswertung Langzeitmessung
