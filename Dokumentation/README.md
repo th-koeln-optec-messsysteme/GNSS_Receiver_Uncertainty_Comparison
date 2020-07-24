@@ -249,18 +249,9 @@ Daraus ergibt sich die Geschwindigkeit: (v±∆v) wobei gilt:
 ## Auswertung
 ### Auswertung Langzeitmessung
 In den nachfolgenden Abbildungen ist die Abweichung der Messdaten in Länge und Breite aufgetragen. Abbildung 11 zeigt die gemessenen Abweichungen der beiden Empfänger bezogen auf den Referenzpunkt. 
-<img width="781" alt="Abbildung 11" src="https://user-images.githubusercontent.com/64781032/88392239-f28b1100-cdbb-11ea-9f30-3e36c5a70d84.png"> 
+
+<img width="781" alt="Abbildung 11" src="https://user-images.githubusercontent.com/64781032/88392239-f28b1100-cdbb-11ea-9f30-3e36c5a70d84.png">\ 
 Abbildung 11
-
-
-
-
-
-
-
-
-
-
 
 In Abbildung 12 ist der Schwerpunkt (blaues „X“) der ausgewerteten Daten des uBlox Empfängers inklusive der Standardabweichung (kleiner Kreis um „X“) dargestellt.
 
@@ -377,7 +368,7 @@ NMEA 0183 (2019), https://de.wikipedia.org/wiki/NMEA_0183, Abruf am 15.06.2020\
 Aufbau des NMEA-Protokolls, http://www.zogg-jm.ch/Dateien/aufbau_des_nmea.pdf, Abruf am 17.06.2020\
 Dilution of Precision (2019), https://de.wikipedia.org/wiki/Dilution_of_Precision, Abruf am 25.06.2020\
 NMEA 0183 Datensätze, http://www.nmea.de/nmea0183datensaetze.html, Abruf am 10.07.2020\
-Martin Kompf: Entfernungsberechnung, https://www.kompf.de/gps/distcalc.html, Abruf am 10.07.2020\ 
+Martin Kompf: Entfernungsberechnung, https://www.kompf.de/gps/distcalc.html, Abruf am 10.07.2020 
 # Abbildungsverzeichnis
 Abbildung 1	https://www.dlg.org/fileadmin/_processed_/1/6/csm_1_Laufzeitmessung_a19590f9d1.jpg\
 Abbildung 2	http://www.zogg-jm.ch/Dateien/aufbau_des_nmea.pdf\
@@ -403,6 +394,6 @@ Abbildung 21	Eigene Darstellung\
 Abbildung 22	Eigene Darstellung\
 Abbildung 23	Eigene Darstellung\
 Abbildung 24	Eigene Darstellung\
-Abbildung 25	Eigene Darstellung\
+Abbildung 25	Eigene Darstellun
 
 
