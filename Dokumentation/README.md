@@ -28,17 +28,23 @@ Inhaltsverzeichnis
 # Was ist GNSS?
 GNSS steht für Globales Navigationssatellitensystem (engl. Global Navigation Satellite System); durch den Empfang von Signalen verschiedener Navigationssatelliten dient es zur Positionsbestimmung und Navigation auf der Erde.
 
-GNSS ist ein Sammelbegriff für die verschiedenen globalen Satellitensysteme: 
+GNSS ist ein Sammelbegriff für die verschiedenen globalen Satellitensysteme:
+
 	* NAVSTAR GPS (Global Positioning System) von den Vereinigten Staaten von Amerika
 	* GLONASS (Globales Satellitennavigationssystem) von der Russischen Föderation
 	* Galileo von der Europäischen Union
 	* Beidou von der Volksrepublik China
+	
 Das GNSS System besteht aus drei Segmenten:
+
 	* **Satelliten im Weltraum**
 Die Satelliten umkreisen in regelmäßigen Intervallen die Erde und senden Signale. Jeder Satellit ist mit einer Uhr, einem Mikroprozessor, einem Sender und einer Antenne ausgestattet.
+
 	* **Kontrollstationen** 
 Die Bahnkoordinaten der Satelliten werden von der Erde aus bestimmt.
+
 	* **Nutzer / Empfänger**
+	
 Empfängt Signale von Satelliten und verarbeitet diese.
 
 Ein GNSS Empfänger ist ein Gerät, dass aus den Satellitensignalen die eigene Position ermittelt.
