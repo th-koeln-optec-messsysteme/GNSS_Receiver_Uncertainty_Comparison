@@ -55,7 +55,7 @@ Der vierte Satellit ermittelt die Abweichung zwischen den Uhren der Satelliten u
 
 
 
-https://user-images.githubusercontent.com/64781032/88391041-a939c200-cdb9-11ea-92f6-62491d25f15a.png
+<img width="274" alt="Abbildung 1" src="https://user-images.githubusercontent.com/64781032/88391041-a939c200-cdb9-11ea-92f6-62491d25f15a.png">
 Abbildung 1
 
 # Vorstellung der zu vergleichenden Empfänger
