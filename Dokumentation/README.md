@@ -211,7 +211,7 @@ Abbildung 9
 
 Der Abstand zwischen den Breitengraden ist konstant bei 111,3 km, der Abstand zwischen den Längengraden variiert jedoch und ist abhängig davon, auf welchem Breitengrad man sich befindet.
 
-Nach folgender Formel lässt sich der Abstand zweier Längengrade berechnen:
+Nach folgender Formel lässt sich der Abstand zweier Längengrade berechnen:\
 dL=111,3 km*cos⁡(Breitengrad)
 
 Um nun die Entfernung zwischen zwei Punkten zu berechnen nutzt man den Satz des Pythagoras. Da der kürzeste Weg zwischen zwei Punkten allerdings durch den Erdball und nicht um ihn herum verläuft muss man zusätzlich die Erdkrümmung berücksichtigen. Für diesen Fall (über weite Entfernungen) muss man die Loxodrome (in der Grafik rot) umrechnen um die sogenannten Orthodrome (in Grafik blau) zu erhalten; die Loxodrome sind immer ein Teilstück des Großkreises (Orthodrome).
