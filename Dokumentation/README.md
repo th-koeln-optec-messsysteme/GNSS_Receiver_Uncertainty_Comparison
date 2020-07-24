@@ -39,7 +39,7 @@ GNSS ist ein Sammelbegriff für die verschiedenen globalen Satellitensysteme:
 Das GNSS System besteht aus drei Segmenten:
 
 * **Satelliten im Weltraum**
- Die Satelliten umkreisen in regelmäßigen Intervallen die Erde und senden Signale. Jeder Satellit ist mit einer Uhr, einem Mikroprozessor, einem Sender und einer      Antenne ausgestattet.
+  Die Satelliten umkreisen in regelmäßigen Intervallen die Erde und senden Signale. Jeder Satellit ist mit einer Uhr, einem Mikroprozessor, einem Sender und einer      Antenne ausgestattet.
 
 * **Kontrollstationen** 
  Die Bahnkoordinaten der Satelliten werden von der Erde aus bestimmt.
