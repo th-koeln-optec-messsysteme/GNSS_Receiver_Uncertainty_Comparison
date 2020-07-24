@@ -152,7 +152,6 @@ Bei der Geschwindigkeitsmessung sollen Messungen unter konstanter Geschwindigkei
 
 ## Messaufbau
 Zum Einlesen des NMEA Protokolls haben wir ein Python Programm geschrieben und uns dafür an bereits verfügbaren Bibliotheken bedient.
-  Auszug aus Quellcode.
 
 Für einen einheitlichen Vergleich der beiden Empfänger wurde eine Platine mit den beiden Empfängern bestückt; somit nutzten sie beide die gleiche Antenne und andere für den Betrieb notwendige Bauteile. Über serielle Schnittstellen konnten die Daten der Empfänger ausgelesen werden. Die Stromversorgung der Platine ist zum einen extern, über einen separaten Anschluss möglich, zum anderen kann die Stromversorgung der Platine auch über eine der seriellen Schnittstelen erfolgen.
  
