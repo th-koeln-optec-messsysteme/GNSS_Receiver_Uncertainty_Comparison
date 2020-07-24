@@ -161,16 +161,22 @@ Zum Einlesen des NMEA Protokolls haben wir ein Python Programm geschrieben und u
 Für einen einheitlichen Vergleich der beiden Empfänger wurde eine Platine mit den beiden Empfängern bestückt; somit nutzten sie beide die gleiche Antenne und andere für den Betrieb notwendige Bauteile. Über serielle Schnittstellen konnten die Daten der Empfänger ausgelesen werden. Die Stromversorgung der Platine ist zum einen extern, über einen separaten Anschluss möglich, zum anderen kann die Stromversorgung der Platine auch über eine der seriellen Schnittstelen erfolgen.
 
 <img width="563" alt="Abbildung 5" src="https://user-images.githubusercontent.com/64781032/88392228-ef902080-cdbb-11ea-8936-776af80f8d7a.png"> 
+
 Abbildung 5
 
 
 Messaufbau:
+
 <img width="419" alt="Abbildung 6" src="https://user-images.githubusercontent.com/64781032/88392230-f028b700-cdbb-11ea-9d87-703906da4757.png"> 
+
 Abbildung 6
 
 Messaufbau am Rhein:
+
 <img width="466" alt="Abbildung 7" src="https://user-images.githubusercontent.com/64781032/88392231-f028b700-cdbb-11ea-943c-a225b0ddc9cb.png"> 
+
 Abbildung 7
+
 # Durchführung, Auswertung und Interpretation der Messungen
 ## Durchführung
 ### Langzeitmessung
@@ -241,26 +247,31 @@ Daraus ergibt sich die Geschwindigkeit: (v±∆v) wobei gilt:
 In den nachfolgenden Abbildungen ist die Abweichung der Messdaten in Länge und Breite aufgetragen. Abbildung 11 zeigt die gemessenen Abweichungen der beiden Empfänger bezogen auf den Referenzpunkt. 
 
 <img width="781" alt="Abbildung 11" src="https://user-images.githubusercontent.com/64781032/88392239-f28b1100-cdbb-11ea-9f30-3e36c5a70d84.png"> 
+
 Abbildung 11
 
 In Abbildung 12 ist der Schwerpunkt (blaues „X“) der ausgewerteten Daten des uBlox Empfängers inklusive der Standardabweichung (kleiner Kreis um „X“) dargestellt.
 
 <img width="764" alt="Abbildung 12" src="https://user-images.githubusercontent.com/64781032/88392243-f323a780-cdbb-11ea-87a1-d5cd5152103c.png"> 
+
 Abbildung 12
 
 In Abbildung 13 ist das Histogramm der ausgewerteten Abweichungen des uBlox Empfängers zum Referenzpunkt in dx und dy Richtung mit entsprechenden Häufigkeiten aufgetragen.
 
 ![Abbildung 13](https://user-images.githubusercontent.com/64781032/88394037-0126f780-cdbf-11ea-8a04-b38fc1a044b6.png)
+
 Abbildung 13
 
 In Abbildung 14 ist der Schwerpunkt (rotes „X“) der ausgewerteten Daten des Zhongkewei Empfängers inklusive der Standardabweichung (kleiner Kreis um „X“) zu sehen.
 
 <img width="773" alt="Abbildung 14" src="https://user-images.githubusercontent.com/64781032/88392245-f3bc3e00-cdbb-11ea-9694-56929bda8049.png"> 
+
 Abbildung 14
 
 In Abbildung 15 ist das Histogramm der ausgewerteten Abweichungen des Zhongkewei Empfängers zum Referenzpunkt in dx und dy Richtung mit entsprechenden Häufigkeiten aufgetragen.
 
 ![Abbildung 15](https://user-images.githubusercontent.com/64781032/88394040-03895180-cdbf-11ea-9582-d7b119063e13.png) 
+
 Abbildung 15
 
 Beim uBlox Empfänger lässt sich beobachten, dass es zwar Abweichungen zum Referenzpunkt gibt, diese jedoch nicht signifikant von den Vorgaben aus dem Datenblatt abweichen (2,5 - 4m). Zusätzlich lässt sich anhand des Schwerpunktes (Abbildung 12) eine leichte Abweichung in nördliche Richtung feststellen. Der Referenzpunkt liegt beim uBlox Empfänger außerhalb der Standardabweichung vom Schwerpunkt.
