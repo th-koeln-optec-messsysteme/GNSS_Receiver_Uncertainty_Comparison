@@ -1,29 +1,29 @@
 Inhaltsverzeichnis
-2	Was ist GNSS?[Was-ist-GNSS?](#Was-ist-GNSS? "Goto Was-ist-GNSS?")	
-3	Vorstellung der zu vergleichenden Empfänger	
-4	Vorbereitungen für den Vergleich der Empfänger	
-4.1	Aufbau des NMEA Protokolls	
-4.2	Dilution of Precision DOP	
-4.3	Differential Global Positioning System DGPS	
-4.4	Durchzuführende Messungen	
-4.4.1	Langzeitmessung	
-4.4.2	Geschwindigkeitsmessung	
-4.5	Messaufbau	
-5	Durchführung, Auswertung und Interpretation der Messungen	
-5.1	Durchführung	
-5.1.1	Langzeitmessung	
-5.1.2	Geschwindigkeitsmessung	
-5.2	Annahmen die wir für die Auswertung treffen werden	
-5.2.1	Langzeitmessung	
-5.2.2	Geschwindigkeitsmessung	
-5.3	Auswertung	
-5.3.1	Auswertung Langzeitmessung	
-5.3.2	Interpretation Langzeitmessung	
-5.3.3	Auswertung Geschwindigkeitsmessung	
-5.3.4	Interpretation Geschwindigkeitsmessung	
-6	Fazit	
-7	Literaturverzeichnis	
-8	Abbildungsverzeichnis	
+2	[Was-ist-GNSS?](#Was-ist-GNSS? "Goto Was-ist-GNSS?")	
+3	[Vorstellung-der-zu-vergleichenden-Empfänger](#Vorstellung-der-zu-vergleichenden-Empfänger "Goto Vorstellung-der-zu-vergleichenden-Empfänger")	
+4	[Vorbereitungen-für-den-Vergleich-der-Empfänger](#Vorbereitungen-für-den-Vergleich-der-Empfänger "Goto Vorbereitungen-für-den-Vergleich-der-Empfänger")	
+4.1	[Aufbau-des-NMEA-Protokolls](#Aufbau-des-NMEA-Protokolls "Goto Aufbau-des-NMEA-Protokolls")	
+4.2	[Dilution-of-Precision-DOP](#Dilution-of-Precision-DOP "Goto Dilution-of-Precision-DOP")	
+4.3	[Differential-Global-Positioning-System-DGPS](#Differential-Global-Positioning-System-DGPS "Goto Differential-Global-Positioning-System-DGPS")	
+4.4	[Durchzuführende-Messungen](#Durchzuführende-Messungen "Goto Durchzuführende-Messungen")	
+4.4.1	[Langzeitmessung](#Langzeitmessung "Goto Langzeitmessung")	
+4.4.2	[Geschwindigkeitsmessung](#Geschwindigkeitsmessung "Goto Geschwindigkeitsmessung")	
+4.5	[Messaufbau](#Messaufbau "Goto Messaufbau")	
+5	[Durchführung,-Auswertung-und-Interpretation-der-Messungen](#Durchführung,-Auswertung-und-Interpretation-der-Messungen "Goto Durchführung,-Auswertung-und-Interpretation-der-Messungen")	
+5.1	[Durchführung](#Durchführung "Goto Durchführung")	
+5.1.1	[Langzeitmessung](#Langzeitmessung "Goto Langzeitmessung")	
+5.1.2	[Geschwindigkeitsmessung](#Geschwindigkeitsmessung "Goto Geschwindigkeitsmessung")	
+5.2	[Annahmen-die-wir-für-die-Auswertung-treffen-werden](#Annahmen-die-wir-für-die-Auswertung-treffen-werden "Goto Annahmen-die-wir-für-die-Auswertung-treffen-werden")	
+5.2.1	[Langzeitmessung](#Langzeitmessung "Goto Langzeitmessung")	
+5.2.2	[Geschwindigkeitsmessung](#Geschwindigkeitsmessung "Goto Geschwindigkeitsmessung")	
+5.3	[Auswertung](#Auswertung "Goto Auswertung")	
+5.3.1	[Auswertung-Langzeitmessung](#Auswertung-Langzeitmessung "Goto Auswertung-Langzeitmessung")	
+5.3.2	[Interpretation-Langzeitmessung](#Interpretation-Langzeitmessung "Goto Interpretation-Langzeitmessung")	
+5.3.3	[Auswertung-Geschwindigkeitsmessung](#Auswertung-Geschwindigkeitsmessung "Goto Auswertung-Geschwindigkeitsmessung")	
+5.3.4	[Interpretation-Geschwindigkeitsmessung](#Interpretation-Geschwindigkeitsmessung "Goto Interpretation-Geschwindigkeitsmessung")	
+6	[Fazit](#Fazit "Goto Fazit")	
+7	[Literaturverzeichnis](#Literaturverzeichnis "Goto Literaturverzeichnis")	
+8	[Abbildungsverzeichnis](#Abbildungsverzeichnis "Goto Abbildungsverzeichnis")	
 
 # Was ist GNSS?
 GNSS steht für Globales Navigationssatellitensystem (engl. Global Navigation Satellite System); durch den Empfang von Signalen verschiedener Navigationssatelliten dient es zur Positionsbestimmung und Navigation auf der Erde.
