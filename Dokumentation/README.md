@@ -87,18 +87,18 @@ Das NMEA Protokoll besteht aus drei Hauptbestandteilen, der Präambel, der Nachr
 <img width="726" alt="Abbildung 3" src="https://user-images.githubusercontent.com/64781032/88392219-ec953000-cdbb-11ea-94fb-5955a59cb825.png"> 
 Abbildung 3
 Die Präambel enthält Informationen über den Start der Nachricht, das verwendete Satellitensystem und den empfangenen Datensatz.
-	GP steht für GPS 
-	GL steht für GLONASS
-	GA steht für GALILEO
-	BD steht für Beidou
-	GN steht für einen Verbund aus unterschiedlichen Systemen
+* GP steht für GPS 
+* GL steht für GLONASS
+* GA steht für GALILEO
+* BD steht für Beidou
+* GN steht für einen Verbund aus unterschiedlichen Systemen
 
 Die Datensätze geben an wie die darauffolgende Nachricht zu interpretieren ist; hierbei sind fünf häufig verwendeten Protokolle:
-	GGA (Global Positioning System Fix Data)
-	VTG (Track made good and Ground speed)
-	GSA (GPS, DOP and active Satellites)
-	GSV (Satellites in view)
-	RMC (Recorded Minimum Navigation Information)
+* GGA (Global Positioning System Fix Data)
+* VTG (Track made good and Ground speed)
+* GSA (GPS, DOP and active Satellites)
+* GSV (Satellites in view)
+* RMC (Recorded Minimum Navigation Information)
 
 Die Nachricht selbst enthält je nach Datensatz unterschiedliche Informationen, auf diese werden wir später im Bezug auf unsere Messungen genauer eingehen.
 Die Checksumme am Ende der Nachricht wird mit einem „*“ als Begrenzung begonnen. 
@@ -126,7 +126,7 @@ Um die Genauigkeit der beiden Empfänger hinsichtlich ihrer Positionsbestimmung 
 <img width="432" alt="Abbildung 4" src="https://user-images.githubusercontent.com/64781032/88392224-edc65d00-cdbb-11ea-91db-303e6cddf964.png"> 
 Abbildung 4
 
-Der GGA-Datensatz (GPS Fix Data) enthält Werte um einen guten Gesamtvergleich zwischen den beiden Empfängern treffen zu können. Er umfasst Informationen bezüglich Zeit, geographischer Länge und Breite, Qualität des Systems, Anzahl der genutzten Satelliten, Höhe und weitere. Der GGA Datensatz ist wie folgt aufgebaut:
+Der GGA-Datensatz (GPS Fix Data) enthält Werte um einen guten Gesamtvergleich zwischen den beiden Empfängern treffen zu können. Er umfasst Informationen bezüglich Zeit, geographischer Länge und Breite, Qualität des Systems, Anzahl der genutzten Satelliten, Höhe und weitere. Der GGA Datensatz ist wie folgt aufgebaut:\
 $--GGA,hhmmss.ss,llll.ll,a,yyyyy.yy,a,x,xx,x.x,x.x,M,x.x,M,x.x,xxxx*hh
 
 | | |
@@ -249,7 +249,7 @@ Abbildung 12
 In Abbildung 13 ist das Histogramm der ausgewerteten Abweichungen des uBlox Empfängers zum Referenzpunkt in dx und dy Richtung mit entsprechenden Häufigkeiten aufgetragen.
 
 ![Abbildung 13](https://user-images.githubusercontent.com/64781032/88394037-0126f780-cdbf-11ea-8a04-b38fc1a044b6.png)
-\Abbildung 13\
+Abbildung 13
 
 In Abbildung 14 ist der Schwerpunkt (rotes „X“) der ausgewerteten Daten des Zhongkewei Empfängers inklusive der Standardabweichung (kleiner Kreis um „X“) zu sehen.
 
