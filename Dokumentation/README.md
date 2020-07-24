@@ -243,12 +243,12 @@ Die Distanz zwischen den beiden Punkten lässt sich mit folgender Formel berechn
 Distanz= √(〖dL〗^2+〖dB〗^2 )
 
 ### Geschwindigkeitsmessung
-Für den Vergleich der Geschwindigkeitsmessungen der beiden Empfänger wird eine Strecke-Zeitmessung durchgeführt. Dafür wird folgende Formeln verwendet:
-v=∆x/∆t
-Eine Näherung für den Fehler wird wie folgt angenommen:
-∆v=v*(∆x/x+∆t/t)
-Daraus ergibt sich die Geschwindigkeit: (v±∆v) wobei gilt:
- v_max=v+∆v 
+Für den Vergleich der Geschwindigkeitsmessungen der beiden Empfänger wird eine Strecke-Zeitmessung durchgeführt. Dafür wird folgende Formeln verwendet:\
+v=∆x/∆t\
+Eine Näherung für den Fehler wird wie folgt angenommen:\
+∆v=v*(∆x/x+∆t/t)\
+Daraus ergibt sich die Geschwindigkeit:(v±∆v) wobei gilt:\
+ v_max=v+∆v\ 
  v_min=v-∆v
 
 ## Auswertung
