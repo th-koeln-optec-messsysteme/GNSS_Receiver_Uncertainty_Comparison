@@ -96,7 +96,7 @@ Die Datensätze geben an wie die darauffolgende Nachricht zu interpretieren ist;
 Die Nachricht selbst enthält je nach Datensatz unterschiedliche Informationen, auf diese werden wir später im Bezug auf unsere Messungen genauer eingehen.
 Die Checksumme am Ende der Nachricht wird mit einem „*“ als Begrenzung begonnen. 
 
-# Dilution of Precision DOP
+## Dilution of Precision DOP
 Satellitennavigationssysteme bestimmen ihre Position über die Entfernung zu mehreren Satelliten durch eine Signallaufzeitmessung. Die Ungenauigkeit dieser Positionsbestimmung gibt der DOP-Wert an, dieser ist abhängig von den Positionen der genutzten Satelliten zueinander. 
 Günstige Winkel zwischen Satellit A, Satellit B und dem Standort des Empfängers liegen bei             90°. Sind diese Winkel sehr klein oder um 180°, schneiden sich die Entfernungskreise bzw. -Kugeln unter flachen Winkeln und verringern somit die Messgenauigkeit. Der Kehrwert der Fläche bzw. des Volumens, das die Einheitsvektoren in Richtung der Satelliten aufspannen, bestimmt die Größe des DOP-Wertes. 
 DOP ist folglich ein Maß dafür, wie gut die Konstellation der Satelliten überhaupt für eine Messung geeignet ist.
@@ -104,13 +104,13 @@ DOP ist folglich ein Maß dafür, wie gut die Konstellation der Satelliten über
 2,5-8	Noch akzeptabel
 >8	Keine Auswertung mehr möglich 
 
-# Differential Global Positioning System DGPS
+## Differential Global Positioning System DGPS
 DGPS bezeichnet ein Verfahren, dass durch ausstrahlen von Korrekturdaten über Bodenstationen die Genauigkeit der GNSS-Systeme steigern soll.
 
-# Durchzuführende Messungen
+## Durchzuführende Messungen
 Für den Vergleich der GNSS-Empfänger sollen zwei maßgebliche Messungen durchgeführt werden; zum einen eine stationäre Langzeitmessung am GPS-Referenzpunkt in Köln und zum anderen eine Geschwindigkeitsmessung unter möglichst konstanten Rahmenbedingungen (Geschwindigkeit, Höhendifferenz, Störeinflüsse). 
 
-## Langzeitmessung
+### Langzeitmessung
 Um die Genauigkeit der beiden Empfänger hinsichtlich ihrer Positionsbestimmung und Höhe zu ermitteln soll eine ca. dreistündige Messung am GPS-Referenzpunkt in Köln durchgeführt werden. Hierbei zeichnen wir die Datensätze „GGA“, „GSA“ und „GSV“ auf. Die Koordinaten des Referenzpunktes wurden mit einem hochpräzisen GPS-Empfänger bestimmt und beziehen sich auf die Mitte der Bronzeplatte.
  
 Abbildung 4
@@ -135,11 +135,11 @@ hh	Checksumme
 
 Ein eventueller Zusammenhang mit der HDOP soll untersucht werden. Des Weiteren soll die Menge der empfangenen Satelliten verglichen werden.
 
-## Geschwindigkeitsmessung
+### Geschwindigkeitsmessung
 Bei der Geschwindigkeitsmessung sollen Messungen unter konstanter Geschwindigkeit durchgeführt werden und mit einer Strecke-Zeitmessung verglichen werden. Dazu werden die Datensätze „VTG“, „GGA“, „GSA“ und „GSV“ aufgezeichnet. Der VTG-Datensatz gibt Aufschluss über die Geschwindigkeit, diese wird im Protokoll direkt in Kilometer pro Stunden ausgegeben.  Für die Strecke-Zeitmessung werden die Kilometertafeln am Rande der Autobahn gezählt und die Zeit mit einer Stoppuhr gemessen. Anhand der gemessenen Zeit und zurückgelegten Strecke kann eine Durchschnittsgeschwindigkeit zzgl. einem Fehler berechnet werden.
 
 
-# Messaufbau
+## Messaufbau
 Zum Einlesen des NMEA Protokolls haben wir ein Python Programm geschrieben und uns dafür an bereits verfügbaren Bibliotheken bedient.
   Auszug aus Quellcode.
 
@@ -347,7 +347,7 @@ Aufgrund der enormen Datenmengen und der Komplexität des Themas ist dieses Proj
 
 
 
-Literaturverzeichnis
+# Literaturverzeichnis
 
 Globales Navigationssatellitensystem (2020),https://de.wikipedia.org/wiki/Globales_
 Navigationssatellitensystem, Abruf am 09.06.2020
@@ -359,7 +359,7 @@ Aufbau des NMEA-Protokolls, http://www.zogg-jm.ch/Dateien/aufbau_des_nmea.pdf, A
 Dilution of Precision (2019), https://de.wikipedia.org/wiki/Dilution_of_Precision, Abruf am 25.06.2020
 NMEA 0183 Datensätze, http://www.nmea.de/nmea0183datensaetze.html, Abruf am 10.07.2020
 Martin Kompf: Entfernungsberechnung, https://www.kompf.de/gps/distcalc.html, Abruf am 10.07.2020 
-Abbildungsverzeichnis
+# Abbildungsverzeichnis
 Abbildung 1	https://www.dlg.org/fileadmin/_processed_/1/6/csm_1_Laufzeitmessung_a19590f9d1.jpg
 Abbildung 2	http://www.zogg-jm.ch/Dateien/aufbau_des_nmea.pdf
 Abbildung 3	Eigene Darstellung
