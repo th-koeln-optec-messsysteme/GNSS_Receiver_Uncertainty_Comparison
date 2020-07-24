@@ -1,31 +1,31 @@
 # Inhaltsverzeichnis\
-* [1-Was-ist-GNSS?](#1-Was-ist-GNSS? "Goto 1-Was-ist-GNSS?")	
-* [2-Vorstellung-der-zu-vergleichenden-Empfänger](#2-Vorstellung-der-zu-vergleichenden-Empfänger "Goto 2-Vorstellung-der-zu-vergleichenden-Empfänger")	
-* [3-Vorbereitungen-für-den-Vergleich-der-Empfänger](#3-Vorbereitungen-für-den-Vergleich-der-Empfänger "Goto 3-Vorbereitungen-für-den-Vergleich-der-Empfänger")	
-	* [3.1-Aufbau-des-NMEA-Protokolls](#3.1-Aufbau-des-NMEA-Protokolls "Goto 3.1-Aufbau-des-NMEA-Protokolls")	
-	* [3.2-Dilution-of-Precision-DOP](#3.2-Dilution-of-Precision-DOP "Goto 3.2-Dilution-of-Precision-DOP")	
-	* [3.3-Differential-Global-Positioning-System-DGPS](#3.3-Differential-Global-Positioning-System-DGPS "Goto 3.3-Differential-Global-Positioning-System-DGPS")	
-	* [3.4-Durchzuführende-Messungen](#3.4-Durchzuführende-Messungen "Goto 3.4-Durchzuführende-Messungen")	
-		* [3.4.1-Langzeitmessung](#3.4.1-Langzeitmessung "Goto 3.4.1-Langzeitmessung")	
-		* [3.4.2-Geschwindigkeitsmessung](#3.4.2-Geschwindigkeitsmessung "Goto 3.4.2-Geschwindigkeitsmessung")	
-	* [3.5-Messaufbau](#3.5-Messaufbau "Goto 3.5-Messaufbau")	
-* [4-Durchführung,-Auswertung-und-Interpretation-der-Messungen](#4-Durchführung,-Auswertung-und-Interpretation-der-Messungen "4-Goto Durchführung,-Auswertung-und-Interpretation-der-Messungen")	
-	* [4.1-Durchführung](#4.1-Durchführung "Goto 4.1-Durchführung")	
-		* [4.1.1-Langzeitmessung](#4.1.1-Langzeitmessung "Goto 4.1.1-Langzeitmessung")	
-		* [4.1.2-Geschwindigkeitsmessung](#4.1.2-Geschwindigkeitsmessung "Goto 4.1.2-Geschwindigkeitsmessung")	
-	* [4.2-Annahmen-die-wir-für-die-Auswertung-treffen-werden](#4.2-Annahmen-die-wir-für-die-Auswertung-treffen-werden "Goto 4.2-Annahmen-die-wir-für-die-Auswertung-treffen-werden")	
-		* [4.2.1-Langzeitmessung](#4.2.1-Langzeitmessung "Goto 4.2.1-Langzeitmessung")	
-		* [4.2.2-Geschwindigkeitsmessung](#4.2.2-Geschwindigkeitsmessung "Goto 4.2.2-Geschwindigkeitsmessung")	
-	* [4.3-Auswertung](#4.3-Auswertung "Goto 4.3-Auswertung")	
-		* [4.3.1-Auswertung-Langzeitmessung](#4.3.1-Auswertung-Langzeitmessung "Goto 4.3.1-Auswertung-Langzeitmessung")	
-		* [4.3.2-Interpretation-Langzeitmessung](#4.3.2-Interpretation-Langzeitmessung "Goto 4.3.2-Interpretation-Langzeitmessung")	
-		* [4.3.3-Auswertung-Geschwindigkeitsmessung](#4.3.3-Auswertung-Geschwindigkeitsmessung "Goto 4.3.3-Auswertung-Geschwindigkeitsmessung")	
-		* [4.3.4-Interpretation-Geschwindigkeitsmessung](#4.3.4Interpretation-Geschwindigkeitsmessung "Goto 4.3.4-Interpretation-Geschwindigkeitsmessung")	
-* [5-Fazit](#5-Fazit "Goto 5-Fazit")	
-* [6-Literaturverzeichnis](#6-Literaturverzeichnis "Goto 6-Literaturverzeichnis")	
-* [7-Abbildungsverzeichnis](#7-Abbildungsverzeichnis "Goto 7-Abbildungsverzeichnis")	
+* [1 Was-ist-GNSS?](#Was-ist-GNSS? "Goto Was-ist-GNSS?")	
+ * [2 Vorstellung-der-zu-vergleichenden-Empfänger](#Vorstellung-der-zu-vergleichenden-Empfänger "Goto Vorstellung-der-zu-vergleichenden-Empfänger")	
+ * [3 Vorbereitungen-für-den-Vergleich-der-Empfänger](#Vorbereitungen-für-den-Vergleich-der-Empfänger "Goto Vorbereitungen-für-den-Vergleich-der-Empfänger")	
+ 	* [3.1 Aufbau-des-NMEA-Protokolls](#Aufbau-des-NMEA-Protokolls "Goto Aufbau-des-NMEA-Protokolls")	
+ 	* [3.2 Dilution-of-Precision-DOP](#Dilution-of-Precision-DOP "Goto Dilution-of-Precision-DOP")	
+ 	* [3.3 Differential-Global-Positioning-System-DGPS](#Differential-Global-Positioning-System-DGPS "Goto Differential-Global-Positioning-System-DGPS")	
+ 	* [3.4 Durchzuführende-Messungen](#Durchzuführende-Messungen "Goto Durchzuführende-Messungen")	
+ 		* [3.4.1 Langzeitmessung](#Langzeitmessung "Goto Langzeitmessung")	
+ 		* [3.4.2 Geschwindigkeitsmessung](#Geschwindigkeitsmessung "Goto Geschwindigkeitsmessung")	
+ 	* [3.5 Messaufbau](#Messaufbau "Goto Messaufbau")	
+ * [4 Durchführung,-Auswertung-und-Interpretation-der-Messungen](#Durchführung,-Auswertung-und-Interpretation-der-Messungen "Goto Durchführung,-Auswertung-und-Interpretation-der-Messungen")	
+ 	* [4.1 Durchführung](#Durchführung "Goto Durchführung")	
+ 		* [4.1.1 Langzeitmessung](#Langzeitmessung "Goto Langzeitmessung")	
+ 		* [4.1.2 Geschwindigkeitsmessung](#Geschwindigkeitsmessung "Goto Geschwindigkeitsmessung")	
+ 	* [4.2 Annahmen-die-wir-für-die-Auswertung-treffen-werden](#Annahmen-die-wir-für-die-Auswertung-treffen-werden "Goto Annahmen-die-wir-für-die-Auswertung-treffen-werden")	
+ 		* [4.2.1 Langzeitmessung](#Langzeitmessung "Goto Langzeitmessung")	
+ 		* [4.2.2 Geschwindigkeitsmessung](#Geschwindigkeitsmessung "Goto Geschwindigkeitsmessung")	
+ 	* [4.3 Auswertung](#Auswertung "Goto Auswertung")	
+ 		* [4.3.1 Auswertung-Langzeitmessung](#Auswertung-Langzeitmessung "Goto Auswertung-Langzeitmessung")	
+ 		* [4.3.2 Interpretation-Langzeitmessung](#Interpretation-Langzeitmessung "Goto Interpretation-Langzeitmessung")	
+ 		* [4.3.3 Auswertung-Geschwindigkeitsmessung](#Auswertung-Geschwindigkeitsmessung "Goto Auswertung-Geschwindigkeitsmessung")	
+ 		* [4.3.4 Interpretation-Geschwindigkeitsmessung](#Interpretation-Geschwindigkeitsmessung "Goto Interpretation-Geschwindigkeitsmessung")	
+ * [5 Fazit](#Fazit "Goto Fazit")	
+ * [6 Literaturverzeichnis](#Literaturverzeichnis "Goto Literaturverzeichnis")	
+ * [7 Abbildungsverzeichnis](#Abbildungsverzeichnis "Goto Abbildungsverzeichnis")
 
-# 1 Was ist GNSS?
+# Was ist GNSS?
 GNSS steht für Globales Navigationssatellitensystem (engl. Global Navigation Satellite System); durch den Empfang von Signalen verschiedener Navigationssatelliten dient es zur Positionsbestimmung und Navigation auf der Erde.
 
 GNSS ist ein Sammelbegriff für die verschiedenen globalen Satellitensysteme:
@@ -59,7 +59,7 @@ Der vierte Satellit ermittelt die Abweichung zwischen den Uhren der Satelliten u
 
 Abbildung 1
 
-# 2 Vorstellung der zu vergleichenden Empfänger
+# Vorstellung der zu vergleichenden Empfänger
 Folgend die wesentlichen Unterschiede/Gemeinsamkeiten der zu vergleichenden Empfänger auf Grundlage der Datenblätter.
 
 |Merkmal|uBlox Max-M8-FW31|Zhongkewei ATGM336H-5N31| 
@@ -73,8 +73,8 @@ Folgend die wesentlichen Unterschiede/Gemeinsamkeiten der zu vergleichenden Empf
 |Beschleunigung (max.)|	                                        4 g|	                                  4 g|
 |Positionsgenauigkeit|	                                     2,5 - 4 m|	                              2,5 m|
 
-# 3 Vorbereitungen für den Vergleich der Empfänger
-## 3.1 Aufbau des NMEA Protokolls
+# Vorbereitungen für den Vergleich der Empfänger
+## Aufbau des NMEA Protokolls
 NMEA 0183 ist ein Kommunikationsprotokoll welches für die Kommunikation zwischen GNSS-Empfängern und Endgeräten dient. Dieses Protokoll beinhaltet 70 unterschiedliche 
 NMEA-Datensätze.
 Die erste Version, die allerdings nicht öffentlich war sondern Militärzwecken diente, wurde im März 1983 freigegeben. Die aktuellste Version ist die 2012 erschienene Version 4.10.  
@@ -108,7 +108,7 @@ Die Datensätze geben an wie die darauffolgende Nachricht zu interpretieren ist;
 Die Nachricht selbst enthält je nach Datensatz unterschiedliche Informationen, auf diese werden wir später im Bezug auf unsere Messungen genauer eingehen.
 Die Checksumme am Ende der Nachricht wird mit einem „*“ als Begrenzung begonnen. 
 
-## 3.2 Dilution of Precision DOP
+## Dilution of Precision DOP
 Satellitennavigationssysteme bestimmen ihre Position über die Entfernung zu mehreren Satelliten durch eine Signallaufzeitmessung. Die Ungenauigkeit dieser Positionsbestimmung gibt der DOP-Wert an, dieser ist abhängig von den Positionen der genutzten Satelliten zueinander. 
 Günstige Winkel zwischen Satellit A, Satellit B und dem Standort des Empfängers liegen bei             90°. Sind diese Winkel sehr klein oder um 180°, schneiden sich die Entfernungskreise bzw. -Kugeln unter flachen Winkeln und verringern somit die Messgenauigkeit. Der Kehrwert der Fläche bzw. des Volumens, das die Einheitsvektoren in Richtung der Satelliten aufspannen, bestimmt die Größe des DOP-Wertes. 
 DOP ist folglich ein Maß dafür, wie gut die Konstellation der Satelliten überhaupt für eine Messung geeignet ist.
@@ -119,7 +119,7 @@ DOP ist folglich ein Maß dafür, wie gut die Konstellation der Satelliten über
 |2,5-8|	Noch akzeptabel|
 |>8|	Keine Auswertung mehr möglich| 
 
-## 3.3 Differential Global Positioning System DGPS
+## Differential Global Positioning System DGPS
 DGPS bezeichnet ein Verfahren, dass durch ausstrahlen von Korrekturdaten über Bodenstationen die Genauigkeit der GNSS-Systeme steigern soll.
 
 ## 3.4 Durchzuführende Messungen
