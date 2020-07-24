@@ -1,8 +1,8 @@
-Inhaltsverzeichnis
-2	[Was-ist-GNSS?](#Was-ist-GNSS? "Goto Was-ist-GNSS?")	
-3	[Vorstellung-der-zu-vergleichenden-Empfänger](#Vorstellung-der-zu-vergleichenden-Empfänger "Goto Vorstellung-der-zu-vergleichenden-Empfänger")	
-4	[Vorbereitungen-für-den-Vergleich-der-Empfänger](#Vorbereitungen-für-den-Vergleich-der-Empfänger "Goto Vorbereitungen-für-den-Vergleich-der-Empfänger")	
-4.1	[Aufbau-des-NMEA-Protokolls](#Aufbau-des-NMEA-Protokolls "Goto Aufbau-des-NMEA-Protokolls")	
+# Inhaltsverzeichnis\
+* [Was-ist-GNSS?](#Was-ist-GNSS? "Goto Was-ist-GNSS?")	
+* [Vorstellung-der-zu-vergleichenden-Empfänger](#Vorstellung-der-zu-vergleichenden-Empfänger "Goto Vorstellung-der-zu-vergleichenden-Empfänger")	
+* [Vorbereitungen-für-den-Vergleich-der-Empfänger](#Vorbereitungen-für-den-Vergleich-der-Empfänger "Goto Vorbereitungen-für-den-Vergleich-der-Empfänger")	
+	* [Aufbau-des-NMEA-Protokolls](#Aufbau-des-NMEA-Protokolls "Goto Aufbau-des-NMEA-Protokolls")	
 4.2	[Dilution-of-Precision-DOP](#Dilution-of-Precision-DOP "Goto Dilution-of-Precision-DOP")	
 4.3	[Differential-Global-Positioning-System-DGPS](#Differential-Global-Positioning-System-DGPS "Goto Differential-Global-Positioning-System-DGPS")	
 4.4	[Durchzuführende-Messungen](#Durchzuführende-Messungen "Goto Durchzuführende-Messungen")	
