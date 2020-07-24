@@ -85,7 +85,8 @@ Abbildung 2
 Das NMEA Protokoll besteht aus drei Hauptbestandteilen, der Präambel, der Nachricht und der Checksumme. Folgendes Beispiel zeigt einen GGA-Datensatz im NMEA Protokoll.
 
 <img width="726" alt="Abbildung 3" src="https://user-images.githubusercontent.com/64781032/88392219-ec953000-cdbb-11ea-94fb-5955a59cb825.png"> 
-Abbildung 3\
+Abbildung 3
+
 Die Präambel enthält Informationen über den Start der Nachricht, das verwendete Satellitensystem und den empfangenen Datensatz.
 * GP steht für GPS 
 * GL steht für GLONASS
