@@ -369,40 +369,40 @@ Aufgrund der enormen Datenmengen und der Komplexität des Themas ist dieses Proj
 
 # Literaturverzeichnis
 
-Globales Navigationssatellitensystem (2020),https://de.wikipedia.org/wiki/Globales_Navigationssatellitensystem, Abruf am 09.06.2020
-Prof. Dr. techn. Alfred Mischke: Skript Teil 8: GNSS, https://www.ruhr-uni-bochum.de/geodaesie/download/Skript%20Teil%208%20-%20GNSS.pdf, Abruf am 11.06.2020
-uBlox Datenblatt: MAX-M8 series, https://www.u-blox.com/sites/default/files/MAX-M8-FW3_DataSheet_(UBX-15031506).pdf, Abruf am 03.06.2020
-Zhongkewei Datenblatt: ATGM336H-5N,https://datasheet.lcsc.com/szlcsc/ 1810261521_ZHONGKEWEI-ATGM336H-5N31_C90770.pdf, Abruf am 03.06.2020
-NMEA 0183 (2019), https://de.wikipedia.org/wiki/NMEA_0183, Abruf am 15.06.2020
-Aufbau des NMEA-Protokolls, http://www.zogg-jm.ch/Dateien/aufbau_des_nmea.pdf, Abruf am 17.06.2020
-Dilution of Precision (2019), https://de.wikipedia.org/wiki/Dilution_of_Precision, Abruf am 25.06.2020
-NMEA 0183 Datensätze, http://www.nmea.de/nmea0183datensaetze.html, Abruf am 10.07.2020
-Martin Kompf: Entfernungsberechnung, https://www.kompf.de/gps/distcalc.html, Abruf am 10.07.2020 
+Globales Navigationssatellitensystem (2020),https://de.wikipedia.org/wiki/Globales_Navigationssatellitensystem, Abruf am 09.06.2020\
+Prof. Dr. techn. Alfred Mischke: Skript Teil 8: GNSS, https://www.ruhr-uni-bochum.de/geodaesie/download/Skript%20Teil%208%20-%20GNSS.pdf, Abruf am 11.06.2020\
+uBlox Datenblatt: MAX-M8 series, https://www.u-blox.com/sites/default/files/MAX-M8-FW3_DataSheet_(UBX-15031506).pdf, Abruf am 03.06.2020\
+Zhongkewei Datenblatt: ATGM336H-5N,https://datasheet.lcsc.com/szlcsc/ 1810261521_ZHONGKEWEI-ATGM336H-5N31_C90770.pdf, Abruf am 03.06.2020\
+NMEA 0183 (2019), https://de.wikipedia.org/wiki/NMEA_0183, Abruf am 15.06.2020\
+Aufbau des NMEA-Protokolls, http://www.zogg-jm.ch/Dateien/aufbau_des_nmea.pdf, Abruf am 17.06.2020\
+Dilution of Precision (2019), https://de.wikipedia.org/wiki/Dilution_of_Precision, Abruf am 25.06.2020\
+NMEA 0183 Datensätze, http://www.nmea.de/nmea0183datensaetze.html, Abruf am 10.07.2020\
+Martin Kompf: Entfernungsberechnung, https://www.kompf.de/gps/distcalc.html, Abruf am 10.07.2020\ 
 # Abbildungsverzeichnis
-Abbildung 1	https://www.dlg.org/fileadmin/_processed_/1/6/csm_1_Laufzeitmessung_a19590f9d1.jpg
-Abbildung 2	http://www.zogg-jm.ch/Dateien/aufbau_des_nmea.pdf
-Abbildung 3	Eigene Darstellung
+Abbildung 1	https://www.dlg.org/fileadmin/_processed_/1/6/csm_1_Laufzeitmessung_a19590f9d1.jpg\
+Abbildung 2	http://www.zogg-jm.ch/Dateien/aufbau_des_nmea.pdf\
+Abbildung 3	Eigene Darstellung\
 Abbildung 4	https://www.geocaching.com/geocache/GC7B70Q_gps-referenzpunkt-koln?guid=a2ac0301-4926-4594-9925-fcecac8e164c
-Abbildung 5	Eigene Darstellung
-Abbildung 6	Eigene Darstellung
-Abbildung 7	Eigene Darstellung
-Abbildung 8	https://de.wikipedia.org/wiki/Geographische_Koordinaten#/media/Datei:FedStats_Lat_long.png
-Abbildung 9	https://de.wikipedia.org/wiki/Geographische_Koordinaten
-Abbildung 10	https://de.wikipedia.org/wiki/Orthodrome#/media/Datei:Rhumbs_and_great_circles_on_Mercator.svg
-Abbildung 11	Eigene Darstellung
-Abbildung 12	Eigene Darstellung
-Abbildung 13	Eigene Darstellung
-Abbildung 14	Eigene Darstellung
-Abbildung 15	Eigene Darstellung
-Abbildung 16	Eigene Darstellung
-Abbildung 17	Eigene Darstellung
-Abbildung 18	Eigene Darstellung
-Abbildung 19	Eigene Darstellung
-Abbildung 20	Eigene Darstellung
-Abbildung 21	Eigene Darstellung
-Abbildung 22	Eigene Darstellung
-Abbildung 23	Eigene Darstellung
-Abbildung 24	Eigene Darstellung
-Abbildung 25	Eigene Darstellung
+Abbildung 5	Eigene Darstellung\
+Abbildung 6	Eigene Darstellung\
+Abbildung 7	Eigene Darstellung\
+Abbildung 8	https://de.wikipedia.org/wiki/Geographische_Koordinaten#/media/Datei:FedStats_Lat_long.png\
+Abbildung 9	https://de.wikipedia.org/wiki/Geographische_Koordinaten\
+Abbildung 10	https://de.wikipedia.org/wiki/Orthodrome#/media/Datei:Rhumbs_and_great_circles_on_Mercator.svg\
+Abbildung 11	Eigene Darstellung\
+Abbildung 12	Eigene Darstellung\
+Abbildung 13	Eigene Darstellung\
+Abbildung 14	Eigene Darstellung\
+Abbildung 15	Eigene Darstellung\
+Abbildung 16	Eigene Darstellung\
+Abbildung 17	Eigene Darstellung\
+Abbildung 18	Eigene Darstellung\
+Abbildung 19	Eigene Darstellung\
+Abbildung 20	Eigene Darstellung\
+Abbildung 21	Eigene Darstellung\
+Abbildung 22	Eigene Darstellung\
+Abbildung 23	Eigene Darstellung\
+Abbildung 24	Eigene Darstellung\
+Abbildung 25	Eigene Darstellung\
 
 
