@@ -124,22 +124,25 @@ Um die Genauigkeit der beiden Empfänger hinsichtlich ihrer Positionsbestimmung 
 Abbildung 4
 
 Der GGA-Datensatz (GPS Fix Data) enthält Werte um einen guten Gesamtvergleich zwischen den beiden Empfängern treffen zu können. Er umfasst Informationen bezüglich Zeit, geographischer Länge und Breite, Qualität des Systems, Anzahl der genutzten Satelliten, Höhe und weitere. Der GGA Datensatz ist wie folgt aufgebaut:
-$--GGA,hhmmss.ss,llll.ll,a,yyyyy.yy,a,x,xx,x.x,x.x,M,x.x,M,x.x,xxxx*hh 
-hhmmss.ss	Universeller Time Code (UTC)
-llll.ll	Breitengrad
-a	Breitenrichtung (N=Nord, S=Süd)
-yyyyy.yy	Längengrad
-a	Längsrichtung (E=Ost, W=West)
-x	GPS-Qualität (0= kein GPS, 1=GPS, 2=DGPS)
-xx	Anzahl der empfangenen Satelliten 
-x.x	Horizontal Dilution of Precision (HDOP)
-x.x	Höhenangabe der Antenne (Geoid-Höhe)
-M	Einheit der Höhenangabe (M=Meter)
-x.x	Höhendifferenz zwischen Ellipsoid und Geoid
-M	Einheit der Höhendifferenz (M=Meter)
-x.x	Alter der DGPS-Daten
-xxxx	Identifizierung der DGPS Referenzmessstelle
-hh	Checksumme
+$--GGA,hhmmss.ss,llll.ll,a,yyyyy.yy,a,x,xx,x.x,x.x,M,x.x,M,x.x,xxxx*hh
+
+| | |
+|-|-|
+|hhmmss.ss|	Universeller Time Code (UTC)|
+|llll.ll|	Breitengrad|
+|a|	Breitenrichtung (N=Nord, S=Süd)|
+|yyyyy.yy|	Längengrad|
+|a|	Längsrichtung (E=Ost, W=West)|
+|x|	GPS-Qualität (0= kein GPS, 1=GPS, 2=DGPS)|
+|xx|	Anzahl der empfangenen Satelliten| 
+|x.x|	Horizontal Dilution of Precision (HDOP)|
+|x.x|	Höhenangabe der Antenne (Geoid-Höhe)|
+|M|	Einheit der Höhenangabe (M=Meter)|
+|x.x|	Höhendifferenz zwischen Ellipsoid und Geoid|
+|M|	Einheit der Höhendifferenz (M=Meter)|
+|x.x|	Alter der DGPS-Daten|
+|xxxx|	Identifizierung der DGPS Referenzmessstelle|
+|hh|	Checksumme|
 
 Ein eventueller Zusammenhang mit der HDOP soll untersucht werden. Des Weiteren soll die Menge der empfangenen Satelliten verglichen werden.
 
